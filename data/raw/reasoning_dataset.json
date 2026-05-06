@@ -1,0 +1,22 @@
+[
+  {"type": "reasoning", "input": "If all cats are animals and all animals breathe, do cats breathe?", "output": "Yes, since all cats are animals and all animals breathe, cats breathe."},
+  {"type": "reasoning", "input": "A train leaves at 9am and arrives at 1pm. How long was the journey?", "output": "The journey was 4 hours long."},
+  {"type": "reasoning", "input": "If it rains, the ground gets wet. The ground is wet. Did it rain?", "output": "Not necessarily. The ground could be wet for other reasons, like a sprinkler."},
+  {"type": "reasoning", "input": "Tom is taller than Sam. Sam is taller than Alex. Who is tallest?", "output": "Tom is the tallest."},
+  {"type": "reasoning", "input": "A store sells 3 shirts for 300 rupees. How much does one shirt cost?", "output": "One shirt costs 100 rupees."},
+  {"type": "reasoning", "input": "If today is Wednesday, what day will it be in 3 days?", "output": "It will be Saturday."},
+  {"type": "reasoning", "input": "Which is heavier, 1 kg of iron or 1 kg of feathers?", "output": "They weigh the same. Both are 1 kilogram."},
+  {"type": "reasoning", "input": "A bat and ball cost 110 rupees. The bat costs 100 more than the ball. How much is the ball?", "output": "The ball costs 5 rupees."},
+  {"type": "reasoning", "input": "If you have a 3-litre jug and a 5-litre jug, how do you measure exactly 4 litres?", "output": "Fill the 5-litre jug, pour into the 3-litre jug until full. You are left with 2 litres. Empty the 3-litre jug, pour the 2 litres in. Fill the 5-litre jug again and pour 1 litre into the 3-litre jug. You now have 4 litres in the 5-litre jug."},
+  {"type": "reasoning", "input": "All birds have wings. Penguins are birds. Do penguins have wings?", "output": "Yes, penguins are birds and all birds have wings, so penguins have wings, even if they cannot fly."},
+  {"type": "reasoning", "input": "There are 10 people in a room. Everyone shakes hands once with everyone else. How many handshakes are there?", "output": "There are 45 handshakes."},
+  {"type": "reasoning", "input": "If 5 machines make 5 items in 5 minutes, how long does it take 100 machines to make 100 items?", "output": "It takes 5 minutes."},
+  {"type": "reasoning", "input": "A man walks north for 3 km, then east for 4 km. How far is he from the start?", "output": "He is 5 km from the start."},
+  {"type": "reasoning", "input": "Is a square a rectangle?", "output": "Yes, a square is a special type of rectangle where all sides are equal."},
+  {"type": "reasoning", "input": "You have 3 boxes: one has apples, one has oranges, one has both. All labels are wrong. You pick one fruit from the box labelled both. How do you identify all boxes?", "output": "Pick from the box labelled both. If you get an apple, that box is apples. Since labels are all wrong, the box labelled apples must be oranges, and the box labelled oranges must be both."},
+  {"type": "reasoning", "input": "If a rooster lays an egg on top of a roof, which way does it roll?", "output": "Roosters do not lay eggs, so there is no egg to roll."},
+  {"type": "reasoning", "input": "What comes next in the sequence: 2, 4, 8, 16?", "output": "The next number is 32. Each number is doubled."},
+  {"type": "reasoning", "input": "What comes next: 1, 1, 2, 3, 5, 8?", "output": "The next number is 13. This is the Fibonacci sequence."},
+  {"type": "reasoning", "input": "If you flip a fair coin 3 times, what is the probability of getting all heads?", "output": "The probability is 1 in 8, or 12.5 percent."},
+  {"type": "reasoning", "input": "A snail climbs 3 metres up a wall during the day and slides 2 metres back at night. How many days to climb 10 metres?", "output": "It takes 8 days. On day 8, the snail reaches the top without sliding back."}
+]

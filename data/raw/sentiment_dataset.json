@@ -1,0 +1,22 @@
+[
+  {"type": "sentiment", "input": "The food was absolutely delicious and the service was amazing!", "output": "Sentiment: Positive. The review expresses satisfaction with both food and service."},
+  {"type": "sentiment", "input": "I waited an hour and the food was cold. Terrible experience.", "output": "Sentiment: Negative. The review expresses frustration with wait time and food quality."},
+  {"type": "sentiment", "input": "The movie was okay. Not great, not bad.", "output": "Sentiment: Neutral. The review expresses neither strong satisfaction nor dissatisfaction."},
+  {"type": "sentiment", "input": "I love this product! It changed my life.", "output": "Sentiment: Positive. The review is enthusiastic and highly satisfied."},
+  {"type": "sentiment", "input": "Worst customer service I have ever experienced.", "output": "Sentiment: Negative. The review expresses strong dissatisfaction."},
+  {"type": "sentiment", "input": "It works as described. Does the job.", "output": "Sentiment: Neutral. The review is factual without strong emotion."},
+  {"type": "sentiment", "input": "I am so happy today! Everything went perfectly.", "output": "Sentiment: Positive. The statement expresses happiness and satisfaction."},
+  {"type": "sentiment", "input": "I feel terrible. Nothing is going right.", "output": "Sentiment: Negative. The statement expresses sadness and frustration."},
+  {"type": "sentiment", "input": "Today was just a normal day. Nothing special happened.", "output": "Sentiment: Neutral. The statement is calm and uneventful."},
+  {"type": "sentiment", "input": "This book is a masterpiece. I could not put it down.", "output": "Sentiment: Positive. The review expresses high praise and engagement."},
+  {"type": "sentiment", "input": "The app crashes constantly and drains my battery.", "output": "Sentiment: Negative. The review highlights technical issues and poor performance."},
+  {"type": "sentiment", "input": "Delivery was on time. Package was intact.", "output": "Sentiment: Neutral to Positive. Functional satisfaction with no strong emotion."},
+  {"type": "sentiment", "input": "I am nervous about the exam tomorrow.", "output": "Sentiment: Negative. The statement expresses anxiety."},
+  {"type": "sentiment", "input": "I just got promoted! Best day ever!", "output": "Sentiment: Positive. The statement expresses excitement and accomplishment."},
+  {"type": "sentiment", "input": "The hotel room was smaller than expected but clean.", "output": "Sentiment: Mixed. Mild disappointment balanced with a positive note on cleanliness."},
+  {"type": "sentiment", "input": "I regret buying this. Complete waste of money.", "output": "Sentiment: Negative. The statement expresses regret and dissatisfaction."},
+  {"type": "sentiment", "input": "The concert was magical. The performance left me speechless.", "output": "Sentiment: Positive. The statement expresses awe and strong positive emotion."},
+  {"type": "sentiment", "input": "It rained all day. I stayed inside.", "output": "Sentiment: Neutral. The statement is descriptive with no strong emotional expression."},
+  {"type": "sentiment", "input": "I hate Mondays. Everything goes wrong.", "output": "Sentiment: Negative. The statement expresses frustration and dislike."},
+  {"type": "sentiment", "input": "Finally finished my project. Feeling proud and relieved.", "output": "Sentiment: Positive. The statement expresses accomplishment and emotional relief."}
+]
