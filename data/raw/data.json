@@ -1,7 +1,97 @@
 [
-  {"input": "Hello, how are you?", "output": "I am doing great, thank you!"},
-  {"input": "What is AI?", "output": "AI stands for Artificial Intelligence."},
-  {"input": "Who made you?", "output": "I was built by Subhobhai from scratch."},
-  {"input": "What can you do?", "output": "I can answer questions and have conversations."},
-  {"input": "Tell me a fact.", "output": "The sun is about 93 million miles from Earth."}
+  {"input": "Hello, how are you?", "output": "I am doing great, thank you! How about you?"},
+  {"input": "What is AI?", "output": "AI stands for Artificial Intelligence — machines that simulate human thinking."},
+  {"input": "Who made you?", "output": "I was built by Subhobhai from scratch as the SUB-ai project."},
+  {"input": "What can you do?", "output": "I can answer questions, have conversations, and learn from data."},
+  {"input": "Tell me a fact.", "output": "The sun is about 93 million miles away from Earth."},
+
+  {"input": "What is machine learning?", "output": "Machine learning is a subset of AI where models learn patterns from data."},
+  {"input": "What is deep learning?", "output": "Deep learning uses neural networks with many layers to learn complex patterns."},
+  {"input": "What is a neural network?", "output": "A neural network is a system of connected nodes that mimic the human brain."},
+  {"input": "What is a transformer model?", "output": "A transformer is a neural network architecture that uses attention mechanisms to process sequences."},
+  {"input": "What is natural language processing?", "output": "NLP is a field of AI focused on enabling computers to understand and generate human language."},
+
+  {"input": "What is Python?", "output": "Python is a popular high-level programming language known for its simplicity and versatility."},
+  {"input": "What is PyTorch?", "output": "PyTorch is an open-source deep learning framework developed by Meta."},
+  {"input": "What is TensorFlow?", "output": "TensorFlow is a deep learning framework developed by Google."},
+  {"input": "What is a GPU?", "output": "A GPU is a Graphics Processing Unit, widely used to accelerate neural network training."},
+  {"input": "What is overfitting?", "output": "Overfitting is when a model learns training data too well and performs poorly on new data."},
+
+  {"input": "What is underfitting?", "output": "Underfitting is when a model is too simple to capture the patterns in the data."},
+  {"input": "What is a loss function?", "output": "A loss function measures how far the model's predictions are from the actual values."},
+  {"input": "What is backpropagation?", "output": "Backpropagation is the algorithm used to update model weights based on the loss gradient."},
+  {"input": "What is gradient descent?", "output": "Gradient descent is an optimization algorithm that minimizes the loss by updating weights iteratively."},
+  {"input": "What is a learning rate?", "output": "The learning rate controls how big the weight update steps are during training."},
+
+  {"input": "What is tokenization?", "output": "Tokenization is the process of splitting text into smaller units called tokens."},
+  {"input": "What is an embedding?", "output": "An embedding is a dense numerical representation of words or tokens in a vector space."},
+  {"input": "What is attention mechanism?", "output": "Attention allows a model to focus on the most relevant parts of the input when making predictions."},
+  {"input": "What is fine-tuning?", "output": "Fine-tuning is the process of training a pre-trained model on a specific task with new data."},
+  {"input": "What is a dataset?", "output": "A dataset is a collection of data used to train or evaluate a machine learning model."},
+
+  {"input": "Good morning!", "output": "Good morning! Hope you have a wonderful day."},
+  {"input": "Good night!", "output": "Good night! Sleep well and rest up."},
+  {"input": "How is the weather today?", "output": "I don't have live data, but I hope it's sunny where you are!"},
+  {"input": "What is your name?", "output": "My name is SUB-ai, built by Subhobhai."},
+  {"input": "Are you a robot?", "output": "I am an AI model, not exactly a robot, but I think and respond like one!"},
+
+  {"input": "What is the capital of India?", "output": "The capital of India is New Delhi."},
+  {"input": "What is the capital of France?", "output": "The capital of France is Paris."},
+  {"input": "What is the capital of USA?", "output": "The capital of the United States is Washington, D.C."},
+  {"input": "What is the largest planet?", "output": "Jupiter is the largest planet in our solar system."},
+  {"input": "What is the smallest planet?", "output": "Mercury is the smallest planet in our solar system."},
+
+  {"input": "Who invented the telephone?", "output": "Alexander Graham Bell is credited with inventing the telephone in 1876."},
+  {"input": "Who invented the computer?", "output": "Charles Babbage is often called the father of the computer for his work on the Analytical Engine."},
+  {"input": "Who is Albert Einstein?", "output": "Albert Einstein was a theoretical physicist known for the theory of relativity."},
+  {"input": "What is gravity?", "output": "Gravity is a fundamental force that attracts objects with mass toward each other."},
+  {"input": "What is the speed of light?", "output": "The speed of light is approximately 299,792 kilometers per second."},
+
+  {"input": "What is water made of?", "output": "Water is made of two hydrogen atoms and one oxygen atom, H2O."},
+  {"input": "What is photosynthesis?", "output": "Photosynthesis is the process by which plants convert sunlight into food using carbon dioxide and water."},
+  {"input": "What is DNA?", "output": "DNA is the molecule that carries genetic information in living organisms."},
+  {"input": "What is the boiling point of water?", "output": "Water boils at 100 degrees Celsius or 212 degrees Fahrenheit at sea level."},
+  {"input": "What is the freezing point of water?", "output": "Water freezes at 0 degrees Celsius or 32 degrees Fahrenheit."},
+
+  {"input": "What is a black hole?", "output": "A black hole is a region in space where gravity is so strong that nothing, not even light, can escape."},
+  {"input": "What is the Big Bang?", "output": "The Big Bang is the leading theory about the origin of the universe, occurring about 13.8 billion years ago."},
+  {"input": "What is the Milky Way?", "output": "The Milky Way is the galaxy that contains our solar system."},
+  {"input": "How many planets are in our solar system?", "output": "There are 8 planets in our solar system."},
+  {"input": "What is the moon?", "output": "The moon is Earth's only natural satellite."},
+
+  {"input": "I am feeling sad.", "output": "I'm sorry to hear that. Remember, tough times don't last. You've got this!"},
+  {"input": "I am happy today!", "output": "That's wonderful to hear! Keep spreading that positivity."},
+  {"input": "I am bored.", "output": "Why not learn something new today? Even 10 minutes of reading can make a difference."},
+  {"input": "Can you help me?", "output": "Of course! Tell me what you need and I'll do my best."},
+  {"input": "Thank you!", "output": "You're welcome! Happy to help anytime."},
+
+  {"input": "What is 2 plus 2?", "output": "2 plus 2 equals 4."},
+  {"input": "What is 10 times 10?", "output": "10 times 10 equals 100."},
+  {"input": "What is the square root of 16?", "output": "The square root of 16 is 4."},
+  {"input": "What is 100 divided by 4?", "output": "100 divided by 4 is 25."},
+  {"input": "Is the Earth flat?", "output": "No, the Earth is an oblate spheroid — roughly spherical but slightly flattened at the poles."},
+
+  {"input": "What is cryptocurrency?", "output": "Cryptocurrency is a digital or virtual currency secured by cryptography, like Bitcoin or Ethereum."},
+  {"input": "What is the internet?", "output": "The internet is a global network of computers that communicate using standardized protocols."},
+  {"input": "What is a website?", "output": "A website is a collection of web pages accessible through a browser on the internet."},
+  {"input": "What is HTML?", "output": "HTML stands for HyperText Markup Language, the standard language for creating web pages."},
+  {"input": "What is CSS?", "output": "CSS stands for Cascading Style Sheets, used to style and layout web pages."},
+
+  {"input": "What is JavaScript?", "output": "JavaScript is a programming language used to make web pages interactive."},
+  {"input": "What is an API?", "output": "An API is an Application Programming Interface that allows different software to communicate."},
+  {"input": "What is open source?", "output": "Open source refers to software whose code is publicly available for anyone to use or modify."},
+  {"input": "What is GitHub?", "output": "GitHub is a platform for hosting and collaborating on code using Git version control."},
+  {"input": "What is version control?", "output": "Version control is a system that tracks changes to files over time so you can recall specific versions."},
+
+  {"input": "What is Hugging Face?", "output": "Hugging Face is a company and platform that provides open-source NLP tools and pre-trained models."},
+  {"input": "What is a chatbot?", "output": "A chatbot is a software application designed to simulate conversation with human users."},
+  {"input": "What is reinforcement learning?", "output": "Reinforcement learning is a type of ML where an agent learns by interacting with an environment and receiving rewards."},
+  {"input": "What is supervised learning?", "output": "Supervised learning trains a model on labeled data where inputs and outputs are known."},
+  {"input": "What is unsupervised learning?", "output": "Unsupervised learning finds hidden patterns in data without labeled outputs."},
+
+  {"input": "What is a parameter in a model?", "output": "A parameter is a variable in a model, like weights and biases, that gets updated during training."},
+  {"input": "What is batch size?", "output": "Batch size is the number of training samples processed together in one forward and backward pass."},
+  {"input": "What is an epoch?", "output": "An epoch is one complete pass through the entire training dataset during model training."},
+  {"input": "What is dropout?", "output": "Dropout is a regularization technique that randomly disables neurons during training to prevent overfitting."},
+  {"input": "What is normalization?", "output": "Normalization scales data to a standard range, which helps models train faster and more stably."}
 ]
