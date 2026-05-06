@@ -1,0 +1,93 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+pip-wheel-metadata/
+
+# ========================
+# Virtual Environments
+# ========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+*.virtualenv
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb
+
+# ========================
+# Model Checkpoints & Weights
+# ========================
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# ========================
+# Processed / Generated Data
+# ========================
+data/processed/
+
+# ========================
+# Logs & Outputs
+# ========================
+logs/
+runs/
+outputs/
+*.log
+*.out
+
+# ========================
+# Environment Variables
+# ========================
+.env
+.env.local
+*.env
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ========================
+# IDEs & Editors
+# ========================
+.vscode/
+.idea/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+
+# ========================
+# Weights & Biases
+# ========================
+wandb/
+
+# ========================
+# Misc
+# ========================
+*.zip
+*.tar.gz
+*.rar
+tmp/
+temp/
