@@ -1,5 +1,9 @@
+# Install PyTorch WITH CUDA support (RTX 3050 / CUDA 12.1)
+# Run this command instead of plain 'pip install torch':
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
 torch
-transformers
-datasets
-numpy
+torchvision
+torchaudio
 tqdm
+numpy
