@@ -1,0 +1,7 @@
+[
+  {"input": "Hello, how are you?", "output": "I am doing great, thank you!"},
+  {"input": "What is AI?", "output": "AI stands for Artificial Intelligence."},
+  {"input": "Who made you?", "output": "I was built by Subhobhai from scratch."},
+  {"input": "What can you do?", "output": "I can answer questions and have conversations."},
+  {"input": "Tell me a fact.", "output": "The sun is about 93 million miles from Earth."}
+]
