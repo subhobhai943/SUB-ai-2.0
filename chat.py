@@ -12,16 +12,16 @@ from train import SimpleTokenizer
 
 BANNER = """
 ┌─────────────────────────────────────────────────────────────┐
-│          SUB-ai 2.0  —  Interactive Chat              │
-│          Built by Subhobhai from scratch              │
-│                                                        │
-│  Commands:                                             │
-│    /temp <0.1-2.0>  — change temperature               │
-│    /topk <1-100>    — change top-k sampling            │
-│    /len  <tokens>   — change response length           │
-│    /reset           — clear conversation history       │
-│    /settings        — show current settings            │
-│    /quit or /exit   — exit the chat                   │
+│          SUB-ai 2.0  —  Interactive Chat                    │
+│          Built by Subhobhai from scratch                    │
+│                                                             │
+│  Commands:                                                  │
+│    /temp <0.1-2.0>  — change temperature                    │
+│    /topk <1-100>    — change top-k sampling                 │
+│    /len  <tokens>   — change response length                │
+│    /reset           — clear conversation history            │
+│    /settings        — show current settings                 │
+│    /quit or /exit   — exit the chat                         │
 └─────────────────────────────────────────────────────────────┘
 """
 
