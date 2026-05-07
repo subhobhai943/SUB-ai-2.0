@@ -26,7 +26,7 @@ BANNER = """
 """
 
 
-def generate(model, tokenizer, prompt, max_new_tokens=50, temperature=0.8, top_k=40, device="cpu"):
+def generate(model, tokenizer, prompt, max_new_tokens=50, temperature=0.8, top_k=40, device="gpu"):
     cfg = CONFIG
     model.eval()
 
