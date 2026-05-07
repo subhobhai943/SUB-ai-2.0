@@ -1,9 +1,18 @@
-# Install PyTorch WITH CUDA support (RTX 3050 / CUDA 12.1)
-# Run this command instead of plain 'pip install torch':
-# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
-
+# ─────────────────────────────────────────────────────────────
+# PyTorch with CUDA 12.1 support (RTX 3050 / most NVIDIA GPUs)
+# Run this manually instead of plain pip install torch:
+#
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+#
+# ─────────────────────────────────────────────────────────────
 torch
 torchvision
 torchaudio
-tqdm
+
+# HuggingFace - for importing large public datasets
+datasets
+huggingface_hub
+
+# Utilities
 numpy
+tqdm

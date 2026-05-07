@@ -18,15 +18,14 @@ def generate(model, tokenizer, prompt, max_new_tokens=40, temperature=0.8, top_k
         for _ in range(max_new_tokens):
             if x.size(1) >= cfg["max_seq_len"]:
                 break
-            logits = model(x)                  # (1, T, vocab)
+            logits = model(x)
             next_logits = logits[0, -1, :] / temperature
 
-            # Top-k sampling
             if top_k > 0:
                 values, _ = torch.topk(next_logits, top_k)
                 next_logits[next_logits < values[-1]] = -float("inf")
 
-            probs     = torch.softmax(next_logits, dim=-1)
+            probs      = torch.softmax(next_logits, dim=-1)
             next_token = torch.multinomial(probs, num_samples=1)
 
             if next_token.item() == tokenizer.word2idx.get("<EOS>", 3):
@@ -61,7 +60,8 @@ if __name__ == "__main__":
         max_seq_len=cfg["max_seq_len"]
     ).to(device)
 
-    model.load_state_dict(torch.load(cfg["save_path"], map_location=device))
+    # weights_only=True fixes the FutureWarning
+    model.load_state_dict(torch.load(cfg["save_path"], map_location=device, weights_only=True))
     print("[✓] Model loaded\n")
 
     prompts = [
@@ -70,6 +70,8 @@ if __name__ == "__main__":
         "User: What is Python?\nBot:",
         "User: Tell me a fact.\nBot:",
         "User: What is 12 plus 8?\nBot:",
+        "User: What is the capital of India?\nBot:",
+        "User: How do you write a function in Python?\nBot:",
     ]
 
     for prompt in prompts:
