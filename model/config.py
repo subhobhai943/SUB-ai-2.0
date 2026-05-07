@@ -1,6 +1,6 @@
 # Model Hyperparameters
 CONFIG = {
-    "vocab_size": 10000,
+    "vocab_size": 30000,    # Increased from 10000 to reduce <UNK> tokens
     "embed_dim": 256,
     "num_heads": 8,
     "num_layers": 4,
