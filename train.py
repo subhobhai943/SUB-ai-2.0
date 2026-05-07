@@ -25,12 +25,12 @@ class SimpleTokenizer:
             self.idx2word[idx] = word
 
     def save(self, path):
-        with open(path, "w") as f:
-            json.dump(self.word2idx, f, indent=2)
+        with open(path, "w", encoding="utf-8") as f:
+            json.dump(self.word2idx, f, indent=2, ensure_ascii=False)
         print(f"[✓] Vocabulary saved to {path}")
 
     def load(self, path):
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:
             self.word2idx = json.load(f)
         self.idx2word = {int(v): k for k, v in self.word2idx.items()}
 
@@ -45,7 +45,7 @@ class SimpleTokenizer:
 # ── Dataset ───────────────────────────────────────────────────────────────────
 class TextDataset(Dataset):
     def __init__(self, path, tokenizer, max_len):
-        with open(path) as f:
+        with open(path, encoding="utf-8") as f:   # ✔ utf-8 fix
             data = json.load(f)
         self.samples = [tokenizer.encode(d["text"], max_len) for d in data]
 
@@ -71,7 +71,7 @@ def main():
         print("[!] CUDA not available. Using CPU.")
         print("    Fix: pip uninstall torch && pip install torch --index-url https://download.pytorch.org/whl/cu121")
 
-    with open("data/processed/dataset.json") as f:
+    with open("data/processed/dataset.json", encoding="utf-8") as f:   # ✔ utf-8 fix
         raw = json.load(f)
     texts = [d["text"] for d in raw]
 
