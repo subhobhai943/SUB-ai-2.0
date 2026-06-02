@@ -131,10 +131,10 @@ def load_model(device):
             tokenizer = AutoTokenizer.from_pretrained(adapter_path, trust_remote_code=True)
             
             # Load base model in FP16 on GPU, FP32 on CPU
-            torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
+            model_dtype = torch.float16 if device.type == "cuda" else torch.float32
             base_model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
-                torch_dtype=torch_dtype,
+                dtype=model_dtype,
                 trust_remote_code=True,
                 attn_implementation="eager"
             )
@@ -149,7 +149,7 @@ def load_model(device):
             torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
             model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
-                torch_dtype=torch_dtype,
+                dtype=torch_dtype,
                 trust_remote_code=True,
                 attn_implementation="eager"
             )

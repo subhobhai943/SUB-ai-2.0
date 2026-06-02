@@ -101,7 +101,7 @@ if __name__ == "__main__":
             torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
             base_model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
-                torch_dtype=torch_dtype,
+                dtype=torch_dtype,
                 trust_remote_code=True,
                 attn_implementation="eager"
             )
@@ -113,7 +113,7 @@ if __name__ == "__main__":
             torch_dtype = torch.float16 if device.type == "cuda" else torch.float32
             model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
-                torch_dtype=torch_dtype,
+                dtype=torch_dtype,
                 trust_remote_code=True,
                 attn_implementation="eager"
             )

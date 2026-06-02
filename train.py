@@ -16,7 +16,7 @@ try:
 except ImportError:
     HF_AVAILABLE = False
 
-# ── Tokenizer (For Custom Mode) ──────────────────────────────────────────────
+# -- Tokenizer (For Custom Mode) -----------------------------------------------
 class SimpleTokenizer:
     def __init__(self, vocab_size):
         self.vocab_size = vocab_size
@@ -50,7 +50,7 @@ class SimpleTokenizer:
         tokens += [0] * (max_len - len(tokens))
         return tokens
 
-# ── Dataset (For Custom Mode) ───────────────────────────────────────────────────
+# -- Dataset (For Custom Mode) -------------------------------------------------
 class TextDataset(Dataset):
     def __init__(self, path, tokenizer, max_len):
         with open(path, encoding="utf-8") as f:
@@ -65,16 +65,16 @@ class TextDataset(Dataset):
         y = torch.tensor(tokens[1:],  dtype=torch.long)
         return x, y
 
-# ── Dataset (For Pretrained Fine-Tuning Mode) ─────────────────────────────────
+# -- Dataset (For Pretrained Fine-Tuning Mode) ---------------------------------
 class PretrainedTextDataset(Dataset):
     def __init__(self, path, tokenizer, max_len):
         with open(path, encoding="utf-8") as f:
             data = json.load(f)
-        
+
         self.samples = []
         pad_token_id = tokenizer.pad_token_id if tokenizer.pad_token_id is not None else 0
         eos_token = tokenizer.eos_token if tokenizer.eos_token is not None else ""
-        
+
         for d in tqdm(data, desc="Tokenizing dataset"):
             text = d["text"] + eos_token
             enc = tokenizer(
@@ -85,11 +85,11 @@ class PretrainedTextDataset(Dataset):
                 return_tensors="pt"
             )
             input_ids = enc["input_ids"].squeeze(0)
-            
+
             # In labels, replace padding token with -100 to ignore loss
             labels = input_ids.clone()
             labels[labels == pad_token_id] = -100
-            
+
             self.samples.append((input_ids, labels))
 
     def __len__(self):
@@ -97,11 +97,9 @@ class PretrainedTextDataset(Dataset):
 
     def __getitem__(self, idx):
         input_ids, labels = self.samples[idx]
-        x = input_ids[:-1]
-        y = labels[1:]
-        return x, y
+        return input_ids, labels
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# -- Main ----------------------------------------------------------------------
 def main():
     cfg = CONFIG
     os.makedirs("checkpoints", exist_ok=True)
@@ -123,22 +121,29 @@ def main():
     model_mode = cfg.get("model_mode", "custom")
     print(f"[*] Training Mode: {model_mode.upper()}")
 
+    # Gradient accumulation config
+    grad_accum_steps = cfg.get("gradient_accumulation_steps", 4)
+
     if model_mode == "pretrained":
         if not HF_AVAILABLE:
-            raise ImportError("Pretrained mode requires huggingface libraries. Please install transformers, peft, and accelerate.")
-        
+            raise ImportError(
+                "Pretrained mode requires huggingface libraries. "
+                "Please install transformers, peft, and accelerate."
+            )
+
         model_name = cfg["pretrained_model_name"]
         print(f"[*] Loading pre-trained tokenizer & model for: {model_name}...")
-        
+
         tokenizer = AutoTokenizer.from_pretrained(model_name, trust_remote_code=True)
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token
-            
-        # Load model in half-precision on GPU to save memory, or full-precision on CPU
+
+        # Load model -- use `dtype=` instead of deprecated `torch_dtype=`
+        # Never chain .to(device) on the same line as from_pretrained
         if device.type == "cuda":
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
-                torch_dtype=torch.float16,
+                dtype=torch.float16,
                 trust_remote_code=True,
                 attn_implementation="eager"
             )
@@ -146,7 +151,7 @@ def main():
         else:
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
-                torch_dtype=torch.float32,
+                dtype=torch.float32,
                 trust_remote_code=True,
                 attn_implementation="eager"
             )
@@ -164,9 +169,18 @@ def main():
             model = get_peft_model(model, peft_config)
             model.print_trainable_parameters()
 
-        full_dataset = PretrainedTextDataset("data/processed/dataset.json", tokenizer, cfg["max_seq_len"])
-        vocab_size = model.config.vocab_size
-        ignore_index = -100
+        full_dataset = PretrainedTextDataset(
+            "data/processed/dataset.json", tokenizer, cfg["max_seq_len"]
+        )
+
+        # Safely get vocab_size -- PEFT wrapping can break model.config access
+        try:
+            vocab_size = model.config.vocab_size
+        except AttributeError:
+            try:
+                vocab_size = model.base_model.config.vocab_size
+            except AttributeError:
+                vocab_size = len(tokenizer)
 
     else:
         # Custom Mode (Word-level Tokenizer & Scratch Transformer)
@@ -174,9 +188,10 @@ def main():
         tokenizer.build_vocab(texts)
         tokenizer.save(cfg["vocab_path"])
 
-        full_dataset = TextDataset("data/processed/dataset.json", tokenizer, cfg["max_seq_len"])
+        full_dataset = TextDataset(
+            "data/processed/dataset.json", tokenizer, cfg["max_seq_len"]
+        )
         vocab_size = cfg["vocab_size"]
-        ignore_index = 0
 
         model = SUBaiModel(
             vocab_size=cfg["vocab_size"],
@@ -186,7 +201,8 @@ def main():
             ff_dim=cfg["ff_dim"],
             max_seq_len=cfg["max_seq_len"],
             dropout=cfg["dropout"]
-        ).to(device)
+        )
+        model = model.to(device)
 
     total_params = sum(p.numel() for p in model.parameters())
     trainable_params = sum(p.numel() for p in model.parameters() if p.requires_grad)
@@ -203,46 +219,72 @@ def main():
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=cfg["lr"], weight_decay=0.01)
     scheduler = torch.optim.lr_scheduler.CosineAnnealingLR(optimizer, T_max=cfg["epochs"])
-    criterion = nn.CrossEntropyLoss(ignore_index=ignore_index)
+
+    # For custom mode we still need a manual loss criterion
+    if model_mode != "pretrained":
+        criterion = nn.CrossEntropyLoss(ignore_index=0)
 
     best_val_loss = float("inf")
 
-    # Mixed precision scaler (for GPU training speed/memory)
-    scaler = torch.cuda.amp.GradScaler(enabled=(device.type == "cuda" and model_mode == "pretrained"))
+    # Mixed precision scaler -- use non-deprecated torch.amp.GradScaler
+    use_amp = (device.type == "cuda" and model_mode == "pretrained")
+    scaler = torch.amp.GradScaler("cuda", enabled=use_amp)
+
+    print(f"[*] Gradient accumulation steps: {grad_accum_steps}")
+    print(f"[*] Effective batch size: {cfg['batch_size'] * grad_accum_steps}")
 
     for epoch in range(1, cfg["epochs"] + 1):
-        # Train
+        # -- Train --
         model.train()
-        train_loss = 0
-        for x, y in tqdm(train_loader, desc=f"Epoch {epoch}/{cfg['epochs']} [Train]"):
-            x, y = x.to(device), y.to(device)
-            
-            optimizer.zero_grad()
-            
-            with torch.cuda.amp.autocast(enabled=(device.type == "cuda" and model_mode == "pretrained")):
-                outputs = model(x)
-                # HF models return a tuple/SequenceClassifierOutput, custom model returns logits directly
-                logits = outputs.logits if hasattr(outputs, "logits") else outputs
-                loss = criterion(logits.reshape(-1, vocab_size), y.reshape(-1))
+        train_loss = 0.0
+        optimizer.zero_grad()
 
-            scaler.scale(loss).backward()
-            scaler.unscale_(optimizer)
-            torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
-            scaler.step(optimizer)
-            scaler.update()
-            
+        for step, (x, y) in enumerate(
+            tqdm(train_loader, desc=f"Epoch {epoch}/{cfg['epochs']} [Train]")
+        ):
+            x, y = x.to(device), y.to(device)
+
+            # Use non-deprecated torch.amp.autocast; only enable on CUDA
+            with torch.amp.autocast("cuda", enabled=use_amp):
+                if model_mode == "pretrained":
+                    # HF models: pass input_ids and labels, get loss directly
+                    outputs = model(input_ids=x, labels=y)
+                    loss = outputs.loss
+                else:
+                    # Custom model: returns logits directly
+                    logits = model(x)
+                    loss = criterion(logits.reshape(-1, vocab_size), y.reshape(-1))
+
+            # Scale loss for gradient accumulation
+            scaled_loss = loss / grad_accum_steps
+            scaler.scale(scaled_loss).backward()
+
+            # Step optimizer every grad_accum_steps or at the last batch
+            if (step + 1) % grad_accum_steps == 0 or (step + 1) == len(train_loader):
+                scaler.unscale_(optimizer)
+                torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
+                scaler.step(optimizer)
+                scaler.update()
+                optimizer.zero_grad()
+
             train_loss += loss.item()
 
-        # Validate
+        # -- Validate --
         model.eval()
-        val_loss = 0
+        val_loss = 0.0
         with torch.no_grad():
             for x, y in val_loader:
                 x, y = x.to(device), y.to(device)
-                with torch.cuda.amp.autocast(enabled=(device.type == "cuda" and model_mode == "pretrained")):
-                    outputs = model(x)
-                    logits = outputs.logits if hasattr(outputs, "logits") else outputs
-                    val_loss += criterion(logits.reshape(-1, vocab_size), y.reshape(-1)).item()
+                with torch.amp.autocast("cuda", enabled=use_amp):
+                    if model_mode == "pretrained":
+                        outputs = model(input_ids=x, labels=y)
+                        loss = outputs.loss
+                    else:
+                        logits = model(x)
+                        loss = criterion(
+                            logits.reshape(-1, vocab_size), y.reshape(-1)
+                        )
+                val_loss += loss.item()
 
         avg_train = train_loss / len(train_loader)
         avg_val   = val_loss   / len(val_loader)
@@ -253,7 +295,7 @@ def main():
         # Save best
         if avg_val < best_val_loss:
             best_val_loss = avg_val
-            
+
             if model_mode == "pretrained":
                 save_dir = os.path.join("checkpoints", "pretrained_model")
                 os.makedirs(save_dir, exist_ok=True)
@@ -263,7 +305,7 @@ def main():
             else:
                 torch.save(model.state_dict(), cfg["save_path"])
                 print(f"  [v] Best custom model saved to {cfg['save_path']}")
-                
+
             config_save_path = os.path.join("checkpoints", "config.json")
             with open(config_save_path, "w", encoding="utf-8") as f:
                 json.dump(cfg, f, indent=4)
