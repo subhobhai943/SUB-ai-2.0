@@ -19998,5 +19998,5005 @@
     "type": "trivia_qa",
     "input": "What was the name of the Russian short-story writer, playwright and physician, considered to be one of the greatest short-story writers in the history of world literature?",
     "output": "Anton Chekhov"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the American pediatrician whose book Baby and Child Care, was published in 1946?",
+    "output": "Benjamin Spock"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which village in Essex  which sits on the River Colne, is famous for its Victorian viaduct that crosses the Colne valley",
+    "output": "Chappel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the Roman god of fire?",
+    "output": "Vulcan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the nickname of the H4 Hercules flying boat, that never went into production after it's maiden flight due to post war cutbacks in 1947.",
+    "output": "The Spruce Goose"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Flying Down to Rio is a 1933 movie that saw the first screen pairing of which partnership.",
+    "output": "Fred Astaire and Ginger Rogers."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which group had a hit with Flying Without Wings in 1999",
+    "output": "Westlife"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which town was the Flying Scotsman locomotove manufactured in 1956.",
+    "output": "Doncaster"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which member of Monty Python's Flying Circus was largely responsible for the animation, including the giant foot in the show's opening sequence.",
+    "output": "Terry Gilliam"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the correct name for the \"Flying Lady\" ornament on a Rolls Royce radiator.",
+    "output": "The Spirit of Ecstasy."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Flying Wallendas were a circus act and daredevil stunt performers with Barnum & Bailey for 40 years, and Karl Wallenda was known for high wire performances. From which country did they originate.",
+    "output": "Germany"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the victim in 'Cluedo'?",
+    "output": "Dr Black"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the only UK monopoly property which contains all of the letters in the word 'monopoly' in its name?",
+    "output": "Electric Company"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many white squares are there on a chess board?",
+    "output": "32"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which game, introduced in the 1980's and still available today involved guiding a metal ball around an obstacle course?",
+    "output": "Screwball Scramble"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many rooms are there in 'Cluedo'?",
+    "output": "9"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who were the last act to win the Eurovision Song Contest for the UK?",
+    "output": "Katrina And The Waves"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the musical term for one or more vocalists performing without an accompaniment?",
+    "output": "A Cappella"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the smallest woodwind instrument in an orchestra?",
+    "output": "Piccolo"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which phrase links the title of an Oasis album and a British coin?",
+    "output": "Standing On The Shoulders Of Giants"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which year did The Beatles officially split?",
+    "output": "1970"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the biggest-selling female solo artist of the 1990's in the USA?",
+    "output": "Mariah Carey"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In 1976, which song was knocked off the number one spot by another song, the title of which is mentioned in its own lyrics?",
+    "output": "Bohemian Rhapsody"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A 'smack' is the collective noun for a group of which marine creatures?",
+    "output": "Jellyfish"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which organ of the human body is affected by Hepatitis?",
+    "output": "Liver"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many muscles are there in a human finger?",
+    "output": "None"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the third largest planet in the Solar System?",
+    "output": "Uranus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Where in the human body would you find the thinnest skin?",
+    "output": "Eyelids"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A 'troubling' is the collective noun for a group of which household pets?",
+    "output": "Goldfish"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which part of the male does a female mantis usually bite off during mating?",
+    "output": "Head"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the more common name of the medical condition 'Diplopia'?",
+    "output": "Double-vision"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which P.M was voted pipe smoker of the year?",
+    "output": "Harold Wilson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first P.M?",
+    "output": "Robert Walpole"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was P.M at the time of the profumo affair?",
+    "output": "Harold MacMillan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the only P.M to have been assassinated?",
+    "output": "Spencer Percival"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British actor starred in the 1975 movie Paper Tiger",
+    "output": "David Niven"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many pieces of paper make up a Quire.",
+    "output": "25"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many Quires make up a Ream",
+    "output": "20"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On which horse did Tony McCoy win the 2010 Grand National on his 15th attempt?",
+    "output": "Don't Push It"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which team won the  Aviva Premiership (rugby union) in 2009/10?",
+    "output": "Leicester Tigers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who won the 2010 French Open Women's Singles final in June?",
+    "output": "Francesca Schiavone"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which team won Super Bowl XLIV in February 2010?",
+    "output": "New Orleans Saints"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Red Bull driver was Formula One 2010 World Champion?",
+    "output": "Sebastian Vettel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the 2010 MotoGP champion?",
+    "output": "Jorge Lorenzo"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who replaced David Tennant as Doctor Who in January?",
+    "output": "Matt Smith"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In April, the BBC announced that who would be replacing Adrian Chiles on the One Show for Fridays, which ultimately led to him quitting the BBC for a four-year deal with ITV?",
+    "output": "Chris Evans"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which singer was given an eight-week sentence for crashing his car into a branch of photographic store Snappy Snaps while under the influence of cannabis in July.",
+    "output": "George Michael"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On which Australian TV show in September, was the wrong winner accidentally announced during its live final?",
+    "output": "Australia's Next Top Model"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In November, which film (full title) broke UK box office records; Biggest 3-day opening, biggest single day in ticket sales and biggest Friday, Saturday & Sunday openings?",
+    "output": "Harry Potter and the Deathly Hallows: Part 1"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Haggis is a national delicacy of which country?",
+    "output": "Scotland"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Madeira Wine is a product of which country?",
+    "output": "Portugal"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which country did chop suey originate?",
+    "output": "U.S.A"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Red Stripe beer comes from which country?",
+    "output": "Jamaica"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From which country does Stella Artois come?",
+    "output": "Belgium"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first woman in the Bible?",
+    "output": "Eve"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Athlete Florence Griffith Joyner was commonly known by what nickname?",
+    "output": "Flo Jo"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first female governor of Alaska?",
+    "output": "Sarah Palin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Edward and Mrs Simpson affair rocked the world in 1936. What was the first name of Mrs Simpson?",
+    "output": "Wallis"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the Peter Griffin's wife in Family Guy?",
+    "output": "Lois"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress has won more Best Actress Oscars than anyone else?",
+    "output": "Katherine Hepburn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Greek mythology, who was the mother of Oedipus?",
+    "output": "Jocasta"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was lead singer of The Bangles?",
+    "output": "Susanna Hoffs"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which US President was assassinated by John Wilkes Booth?",
+    "output": "Abraham Lincoln"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was assassinated on the Ides of March?",
+    "output": "Julius Caesar"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "According to William Shakespeare, who killed Duncan?",
+    "output": "Macbeth"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which ex-Prime Minister of Pakistan was assassinated in December 2007?",
+    "output": "Benazir Bhutto"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which war hero and escapee from Colditz was assassinated in 1979?",
+    "output": "Airey Neave"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who shot and killed Lee Harvey Oswald?",
+    "output": "Jack Ruby"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The assassination of Archduke Franz Ferdinand of Austria caused what cataclysmic world event?",
+    "output": "The First World War"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Andrey Lugovoy is wanted by British police on suspicion of the murder of whom?",
+    "output": "Alexander Litvinenko"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famous person did Mark Chapman kill in December 1980?",
+    "output": "John Lennon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famous TV cowboy was played by Clayton Moore?",
+    "output": "The Lone Ranger"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of Butch Cassidy's gang?",
+    "output": "The Hole In The Wall Gang"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played the Ringo Kid in the film Stagecoach?",
+    "output": "John Wayne"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which real life law enforcer did Henry Fonda play in the film My Darling Clementine?",
+    "output": "Wyatt Earp"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which American State did the Gunfight at the OK Corral take place?",
+    "output": "Arizona"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Known as Wild Bill, what were J. B. Hickok's real first names?",
+    "output": "James Butler"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played English Bob in the film Unforgiven?",
+    "output": "Richard Harris"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which tribe did Crazy Horse lead?",
+    "output": "Sioux"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which singer starred in 1970 film 'Gunfight'?",
+    "output": "Johnny Cash"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Alec Guinness played Sid Stratton in The Man in the White Suit' in a film made as part of which famous studio's comedy classics.",
+    "output": "Ealing"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the first bridge that the boats pass under in the Oxford - Cambridge boat race?",
+    "output": "Hammersmith"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the capital of Jamaica?",
+    "output": "Kingston"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "New York is made up of five boroughs - Manhattan, Staten Island, Brooklyn, The Bronx and which other?",
+    "output": "Queens"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Of which regal title is Princess Anne the seventh holder?",
+    "output": "Princess Royal"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many is there in a bakers dozen?",
+    "output": "13"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "No.617 RAF Sqaudron is better known as what?",
+    "output": "The Dambusters"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who scored the first ever Golden Goal in the 1998 World Cup?",
+    "output": "Laurent Blanc"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the Capital City of Latvia?",
+    "output": "Riga"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was British Primeminister between 1880 - 1885?",
+    "output": "Benjamin Disraeli"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Gordon Sumner is better known as whom?",
+    "output": "Sting"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who won the 2002 FA Cup?",
+    "output": "Arsenal"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the english translation of Carpe Diem?",
+    "output": "Seize the Day"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "New York is made up of five districts, Manhattan, Richmond, Brooklyn, Bronx and which other?",
+    "output": "Queens"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which European city has the highest mileage of canals in the world?",
+    "output": "Birmingham"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which river forms much of the border between England and Scotland?",
+    "output": "Tweed"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which European country is the city of Strasbourg?",
+    "output": "France"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the largest of the Greek islands?",
+    "output": "Crete"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which country is Transylvania?",
+    "output": "Romania"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country do the Faroe Islands belong to?",
+    "output": "Denmark"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The name of which European capital city is derived from the names of two towns on either bank of its main river?",
+    "output": "Budapest"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What spirit is used to make Daquari?",
+    "output": "Rum"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country has the largest Malt Whisky distillery in the world?",
+    "output": "Japan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the flavour of `Ouzo`?",
+    "output": "Aniseed"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which evergreen tree's berries are used to flavour gin?",
+    "output": "Juniper"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From what fruit is the French cordial syrup of Grenadine made?",
+    "output": "Pomegranate"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is added to tomato juice to make a Bloody Maria?",
+    "output": "Tequila"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Hollywood actor starred in 142 of his 153 films, having had more leading roles than any other actor.",
+    "output": "John Wayne"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Tom Cruise plays a naval lawyer in which 1992 film?",
+    "output": "A Few Good Men"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the British actor who won an Oscar for his part in 'The Bridge over the River Kwai'?",
+    "output": "Sir Alec Guinness"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "With which actor did John Travolta exchange faces in the movie Face Off?",
+    "output": "Nicholas Cage"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played Popeye in the movie of the same name?",
+    "output": "Robin Williams"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Dustin Hoffman played a character suffering from Autism in which Film?",
+    "output": "Rain Man"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which film star has a statue in Leicester Square?",
+    "output": "Charlie Chaplin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress was in both the 60s and 90s versions of The Thomas Crown Affair?",
+    "output": "Faye Dunaway"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played the part of Annie Porter in the 2 Speed films?",
+    "output": "Sandra Bullock"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which singer / actress played the character 'mayday' in the James bond film 'A view to a kill'",
+    "output": "Grace Jones"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played the title role in the film Shirley Valentine?",
+    "output": "pauline Collins"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first black woman to win a best actress Oscar?",
+    "output": "Halle Berry"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who plays Lara Croft in the Tomb Raider movies?",
+    "output": "Angelina Jolie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is Warren Beatty's famous sister?",
+    "output": "Shirley Maclaine"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who won an Oscar for Best Actress for the film Sophie's Choice?",
+    "output": "Meryl Streep"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From which film does the saying ''Hasta la vista, baby\" come?",
+    "output": "Terminator"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress said: 'When I'm good I'm very good, but when I'm bad I'm better'?",
+    "output": "Mae West"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From which film comes the line 'Mrs. Robinson, you're trying to seduce me... aren't you?'",
+    "output": "The Graduate"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which film would you hear the famous line That's not a knife - this is a knife?",
+    "output": "Crocodile Dundee"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Credits on all Bond films finish with which same four words?",
+    "output": "James Bond Will Return"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress, upon splitting with her partner said, At least I can wear high heels now\"?",
+    "output": "Nicole Kidman"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actor said My Mama always said, 'Life was like a box of chocolates; you never know what you're gonna get.\"",
+    "output": "Tom Hanks"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the anniversary gemstone for the 9th year of marriage?",
+    "output": "Tigers Eye."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Currently based in Herzogenaurach, Germany, which major German multinational company  produces high-end athletic shoes?",
+    "output": "Puma."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What material  is made primarily from the shell of the Hawksbill turtle?",
+    "output": "Tortoise Shell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the 70s series the Return of the Saint, what type of car did the title character drive?",
+    "output": "Jaguar XJS."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Instrumental composition by Henry Mancini written as the theme for this 1963 film?",
+    "output": "The Pink Panther."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Conjoined twins are also known as what?",
+    "output": "Siamese Twins"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the fourth book of the old testament?",
+    "output": "Numbers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In 1982, who became the first poet to win a Pulitzer Prize posthumously?",
+    "output": "Sylvia Plath"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which year did a terrorist group kill eleven hostages at the Olympic Games?",
+    "output": "1972"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1946 film was an adaptation of Raymond Chandler's crime novel of the same name?",
+    "output": "The Big Sleep"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which influential German philosopher wrote 'Being and Time'?",
+    "output": "Martin Heidegger"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which American society magazine merged into Vogue in 1936?",
+    "output": "Vanity Fair"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who composed the opera 'HĂ¤nsel und Gretel'?",
+    "output": "Engelbert Humperdinck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country is the largest producer of saffron?",
+    "output": "Iran"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which American state is Area 51 located?",
+    "output": "Nevada"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What now stands on the site of the place of execution at Tyburn?",
+    "output": "Marble Arch"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What now stands on the site of the notorious Newgate prison?",
+    "output": "The Old Bailey"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which London river, now flowing underground, rises at Finsbury Circus, flows through the City of London and enters the Thames by Cannon Street railway station?",
+    "output": "River Walbrook"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the first prefabricated building that was erected on the medieval London Bridge in 1577?",
+    "output": "Nonsuch House"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the second bridge to be built over the Thames in London in 1750?",
+    "output": "Westminster Bridge"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Crystal Palace was re-erected on which hill in South London after the Great Exhibition of 1851?",
+    "output": "Sydenham Hill"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Outside of which building in Whitehall was King Charles I executed?",
+    "output": "The Banqueting House"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Panzer MK V in WWII was better known as?",
+    "output": "Panther tank"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "During the English Civil War the Parliamentarians held London. In which city did the Royalists establish their rival capital?",
+    "output": "Oxford"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which ancient, fierce warrior nation, upon attacking ancient Israel, . came down like a wolf on the fold'?",
+    "output": "The Assyrians"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "At which naval battle in WWII did the Americans decisively defeat the Japanese Carrier Task Force?",
+    "output": "Battle of Midway"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In 1944 what was the name of the operation to take key bridges over major rivers in Holland by airborne and land force assaults?",
+    "output": "Market-Garden"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "After which battle did the British Life Guards first obtain their breast-plates?",
+    "output": "Waterloo - from Napoleon's defeated Cuirassier's breast-plates"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The bombardment of which fort was the act which started the American Civil War?",
+    "output": "Fort Sumpter"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which WWI battle occurred on a peninsular south of Istanbul in Turkey?",
+    "output": "Gallipoli"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the highest mountain in England?",
+    "output": "Scafell Pike"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which city is known as the Granite City'?",
+    "output": "Aberdeen"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Aquae Sulis is the Roman name for which modern city?",
+    "output": "Bath"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which range of hills in the west country has Cheddar Gorge and it's caves as well as Wookey Hole caves?",
+    "output": "The Mendip Hills"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the extensive area of marshland on the south-east coast of Kent?",
+    "output": "Romney Marshes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the World Heritage Site on the coastline of Dorset and East Devon?",
+    "output": "The Jurassic Coast"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which word, common in the South of England, describes a steep-sided river valley where the water flows through coastal cliffs to the sea?",
+    "output": "A chine"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the UK's earliest National Park?",
+    "output": "The Peak District"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played the title role in the movie Billy Elliot.",
+    "output": "Jamie Bell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress danced the twist with John Travolta in Pulp Fiction",
+    "output": "Uma Thurman"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Babs Lord (the tall blonde one in Pan's People) has been married to which English actor since 1975.",
+    "output": "Robert Powell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Dame Marie Rambert founded her own dancing school in the 1920s, In which country was she born.",
+    "output": "Poland."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "James Arness played Marshall Matt Dillon in Gunsmoke. Who was his actor brother.",
+    "output": "Peter Graves"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the surname of the Chuckle brothers?",
+    "output": "Elliot."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the TV personality brother of radio presenter Janice Long?",
+    "output": "Keith Chegwin."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which of the Marx brothers never spoke on screen after his first appearance in 1925?",
+    "output": "Harpo."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Cricketing brothers Ian & Greg Chappell have both captained Australia. A third Chappell brother has also played for his country, what is his name.",
+    "output": "Trevor"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which city did IOC president Jacques Rogge announce London as the host of the 2012 Olympic Games?",
+    "output": "Singapore"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the only position on a netball field designated with a single letter on the bib worn by each player?",
+    "output": "Centre"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On a cricket field which principal position is between Mid-on and Square leg?",
+    "output": "Mid-wicket"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "If you box in a left handed stance is described as southpaw.  How is the stance of a right handed boxer usually described?",
+    "output": "Orthodox"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which US city is host to teams called the Penguins in Ice Hockey and the Pirates in Baseball?",
+    "output": "Pittsburgh"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which sport do you score 6 points for a goal and 1 point for a behind?",
+    "output": "Australian Rules Football"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which town or city has a rugby league team called the Rams?",
+    "output": "Dewsbury"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Apart from Newcastle United, which other English Football League team plays their home matches at a ground called St James' Park?",
+    "output": "Exeter City"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 60s fashion icon gave it all up to run a hotel in Cornwall?",
+    "output": "Jean Shrimpton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who kept her face in a jar by the door?",
+    "output": "Eleanor Rigby"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first artistic director of the National Theatre, started at the Old Vic in 1963?",
+    "output": "Laurence Olivier"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which long-running television programme started on the day after President Kennedy's assasination?",
+    "output": "Doctor Who"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Beatles had an unbroken run of number one British singles from 1963 until, in March 1967, they were pushed into second place. By which singer?",
+    "output": "Engelbert Humperdinck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British film from 1963 won four Oscars and was based on a novel first published in 1749?",
+    "output": "Tom Jones"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Profumo affair is frequently blamed for bringing down the Conservative government in 1964. Who created the scandal by introducing John Profumo to Christine Keeler?",
+    "output": "Stephen Ward"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famous piece of music was commissioned for the reconsecration of Coventry Cathedral in 1962?",
+    "output": "The War Requiem"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Biba boutiques were at the heart of swinging London and at one time had the highest turnover of any British retail company. Who founded and ran Biba?",
+    "output": "Barbara Hulanicki"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is caused by the gravitational pull of the Moon and Sun on Earth?",
+    "output": "The tides"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In geology what is the term used for the layer between the Earth's crust and the core?",
+    "output": "The Mantle"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which gas forms about 78% of the Earth's atmosphere?",
+    "output": "Nitrogen"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The lowest part of the Earth's atmosphere, where we live, is called what?",
+    "output": "The Troposphere"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the effect that deflects winds and currents as a result of the Earth's rotation?",
+    "output": "The Coriolus Effect"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the distant past what was the name given to the Super-Continent that made up the majority land mass of Earth?",
+    "output": "Pangaea"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name for the study of Continental Drift?",
+    "output": "Plate Tectonics"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Cullen Skink is a hearty soup made with potatoes, onion and which fish?",
+    "output": "Smoked Haddock"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which common kitchen herb is used in a Mojito?",
+    "output": "Mint"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which fruit goes into the liqueur Kirsch?",
+    "output": "Cherry"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the main ingredient of Guacamole?",
+    "output": "Avocado"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Rigatoni is what type of Italian food?",
+    "output": "Pasta"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the special Indian clay oven?",
+    "output": "A Tandoor"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Harvey Wall Banger cocktail contain Vodka, orange juice and what else?",
+    "output": "Galliano"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which chef presents 'Saturday Morning Kitchen' on TV?",
+    "output": "James Martin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which food dish is named after one of Napoleons famous victories?",
+    "output": "Chicken Marengo"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What alcoholic drink is made from molasses?",
+    "output": "Rum"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Greek cuisine a vine or cabbage leaf with a savoury stuffing is called what?",
+    "output": "A Dolma"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the cavalry regiment raised and trained by Oliver Cromwell in the English Civil War?",
+    "output": "The Ironsides"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "William Howard Russell became famous as what during the Crimean War?",
+    "output": "War Correspondent"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Bourbon dynasty began to rule which country from 1700 and still do?",
+    "output": "Spain"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was abolished in Russia in 1861?",
+    "output": "Serfdom"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Near which city in Russia did the greatest tank battle of World War II take place in July 1943?",
+    "output": "Kursk"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "At the battle of Ashdown, in A.D 871, the Danes were defeated by forces under which famous king?",
+    "output": "King Alfred"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What did Prince Albert, consort of Queen Victoria, die of?",
+    "output": "Typhoid"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first monarch of the House of Tudor?",
+    "output": "Henry VII"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who crowned Napoleon as Emperor?",
+    "output": "He crowned himself"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which World War II General was nicknamed The Desert Fox?",
+    "output": "General Erwin Rommel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which military battle saw eleven Victoria Crosses awarded, the most for any single action?",
+    "output": "Battle of Rorke's Drift"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the English King at the Battle of Agincourt?",
+    "output": "Henry V"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who were allied with the French Naval forces during The Battle of Trafalgar?",
+    "output": "Spain"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the Supreme Allied Commander during the D Day landings of 1944?",
+    "output": "General Dwight D Eisenhower"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What RAF squardron number was nicknamed The Dambusters?",
+    "output": "617"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Seiges of Ladysmith and Mafeking were military actions during which war?",
+    "output": "Second Boer War"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the first name of the American professional tennis player with the surname Fish.",
+    "output": "Mardy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which rock band was Fish the lead singer",
+    "output": "Marillion"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which country is Fishoek, a wine producing coastal area.",
+    "output": "South Africa - Western Cape."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Finding Nemo, what was the name of Nemo's father.",
+    "output": "Marlin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which progressive rock band had a track called The Fish on their 1971 album Fragile, their 4th album, but the first to feature Rick Wakeman.",
+    "output": "Yes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who starred in the 1991 movie The Fisher King",
+    "output": "Robin Williams"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the currency name in Bulgaria?",
+    "output": "Lev"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which comedian, writer & actor had the character Loadsamoney' which he played on his TV shows?",
+    "output": "Harry Enfield"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress played Miss Moneypenny in the James Bond films fourteen times, from Dr. No (1962) until her final performance of the character in A View to a Kill (1985).",
+    "output": "Lois Maxwell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The lyric I was born in the wagon of a travellin show, my mama used to dance for the money they'd throw' is from which song?",
+    "output": "Gypsies Tramps & Thieves"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "True Cashmere is a product of which kind of animal?",
+    "output": "Cashmere Goat"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1964 film, starring Stanley Baker and Jack Hawkins depicted the 1879 Battle of Rorke's Drift?",
+    "output": "Zulu"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "These were \"star-cross'd lovers\" whose deaths ultimately unite their feuding families.  What were their names?",
+    "output": "Romeo and Juliet"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the only Canadian province to have French as its sole official language?",
+    "output": "Quebec"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Christian name links Brown, Champagne and Aunt?",
+    "output": "Charlie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "According to Greek Mythology, what was the name of the mountain nymph who falls in love with Narcissus?",
+    "output": "Echo"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A discovery by Professor Wilhelm Roentgen in the 1890s led to which amazing medical invention?",
+    "output": "X-Ray"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Claude Monet, King Hussein of Jordan and Prince Charles all share the same birthday - the 14th .... of  which month?",
+    "output": "November"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "This word has seven letters, it came before god, is greater than god, more evil than the devil, poor people have it, rich people want it, if you eat it you would die. What is it?",
+    "output": "Nothing"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What can you catch but you can't throw?",
+    "output": "A cold"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What gets whiter the dirtier it gets?",
+    "output": "A chalkboard"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What can go up a chimney down, but not down a chimney up?",
+    "output": "An umbrella"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is so frasgile that even saying its name would break it?",
+    "output": "Silence"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of Fluer Delacor's little sister?",
+    "output": "Gabrielle"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is Mad-Eye Moody's first name?",
+    "output": "Alastor"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many horcruxes are there?",
+    "output": "8"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the fulkl name of the Headmaster of Hogwarts who is killed in book 6?",
+    "output": "Albus Percival Wulfric Brian Dumbledore"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the poltergeist at Hogwarts?",
+    "output": "Peeves"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the animal Professor McGonall turns into?",
+    "output": "Cat"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British Blue Peter presenter is attempting, in January 2012, to get to the South Pole on a variety modes of transport - including a bike and kite ski?",
+    "output": "Helen Skelton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is most commonly attributed as finding America, when he was hoping to find a route to India?",
+    "output": "Christopher Colombus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British explorer was the  first ship's captain to stop the disease scurvy (now known to be caused by a lack of vitamin C) among sailors by providing them with fresh fruits?",
+    "output": "Captain James Cook"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Portuguese explorer discovered an ocean route from Portugal to the East - thought to be impossible at the time - in 1497??",
+    "output": "Vasco da Gama"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the Old English saga Beowulf, what is the name of the monster?",
+    "output": "Grendel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A village in North Wales is named for the grave of a legendary dog. What is it's name?",
+    "output": "Beddgelert"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Doncaster airport takes its name from which figure in folklore?",
+    "output": "Robin Hood"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Arthurian legend, who fought the Green Night?",
+    "output": "Gawain"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name given to the collection of Welsh legends?",
+    "output": "The Mabinogion"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famous author hoped to create a mythology for England?",
+    "output": "J. R. R. Tolkien"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "St George is the patron saint of England, but in which country would you find his tomb?",
+    "output": "Israel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What country is Pecarino cheese from.",
+    "output": "Italy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What country is Sukhindol wine from.",
+    "output": "Bulgaria"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is a crate of twelve bottles of wine called.",
+    "output": "Case"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which cheese is known as the King of English cheeses.",
+    "output": "Stilton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the German label term indicating a high quality wine.",
+    "output": "Kabinett"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which well known cheese is transported in cyclindrical wood-chip boxes.",
+    "output": "Camembert"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many normal size wine bottles in a Methuselah.",
+    "output": "Eight"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which group had a Top Ten hit in 1986 with 'Hunting High And Low'.",
+    "output": "A-Ha"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who starred as Will Kane in the 1952 film 'High Noon'.",
+    "output": "Gary Cooper"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the highest mountain in Germany.",
+    "output": "Zugspitze"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Where is the lowest point in Africa.",
+    "output": "Lake Assai"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which year was The Highway Code first published.",
+    "output": "1931"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of Frank and Betty Spencer's daughter in Some Mothers Do Have Em?",
+    "output": "Jessica"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played Queen Elizabeth I in Blackadder II?",
+    "output": "Miranda Richardson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sitcom starred Leonard Rossiter in the role of a supermarket manager?",
+    "output": "Tripper's Day"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Rising Damp what was the christian name of Miss Jones?",
+    "output": "Ruth"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the church in The Vicar of Dibley?",
+    "output": "St Barnabus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In The Young Ones who shared the house with Rick, Vivian and Neil?",
+    "output": "Mike"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Kipper and the Corpse was an episode from which classic comedy series?",
+    "output": "Fawlty Towers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the character played by Alyson Hannigan in the TV series Buffy the Vampire Slayer?",
+    "output": "Willow (Rosenburg)."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which company makes the iPod and the iPhone?",
+    "output": "Apple"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The three commonest horse coats are: bay, grey and which other colour?",
+    "output": "Chestnut"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On what part of the body would you find the Mount of Venus?",
+    "output": "Palm of the hand"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who starred in the films: The Gold Rush, City Lights & Modern Times?",
+    "output": "Charlie Chaplin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Whose debut album released in 1998 was entitled The Voice of an Angel?",
+    "output": "Charlotte Church"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which author who died in 1998 was the most borrowed author from British libraries for over twenty years?",
+    "output": "Catherine Cookson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the USA, the second Monday in October is a celebration in recognition of which historical figure?",
+    "output": "Christopher Columbus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actor, possibly best known for his portrayal of Clark Griswald, hosted the American Acadamy Awards Ceremony in both 1987 and 1988?",
+    "output": "Chevy Chase"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who in the early 1960's became known as the King of The Twist?",
+    "output": "Chubby Checker"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress played Monica Geller in the TV series Friends?",
+    "output": "Courteney Cox"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which fashion designer was chiefly responsible for the popularization of  the Little Black Dress?",
+    "output": "Coco Chanel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was Home Secretary during the Foreign Prisoners Scandal of 2006?",
+    "output": "Charles Clarke"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which supermodel was married to Richard Gere between 1991 and 1995?",
+    "output": "Cindy Crawford"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who had a hit in the 1980s with White Wedding",
+    "output": "Billy Idol"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which alcohol forms the primary ingredient of a White Lady cocktail",
+    "output": "Gin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which football club played at White City stadium in the 62-63 season as an experiment, deciding against a permanent move.",
+    "output": "Queens Park Rangers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who had a hit in 2003 with White Flag",
+    "output": "Dido"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which popular knighted actor was born David White in 1940",
+    "output": "David Jason"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first monarch to live in Buckingham Palace?",
+    "output": "Queen Victoria"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who manned the first plane flight?",
+    "output": "The Wright Brothers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Ursula Andress was the first Bond Girl, but what was her character name?",
+    "output": "Honey Rider"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first foreign player to score a hat trick in the Premiership?",
+    "output": "Eric Cantona"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Bill Sykes dog in Oliver Twist",
+    "output": "Bullseye"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Largest member of the cat family",
+    "output": "Tiger"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "TV programme in which entrepreneurs pitch their ideas to a panel of millionaires",
+    "output": "Dragons Den"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "1981 film set in Russia, produced, directed and starring Warren Beatty. Also starring Dianne Keaton",
+    "output": "Reds"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "1978 song , sung by Warren Zevon.",
+    "output": "Werewolves of London"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Of the athletic events being contested in 2012, which event has the longest standing Olympic record?",
+    "output": "Long Jump"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the venue for the 2012 Olympic Badminton ?",
+    "output": "Wembley Arena"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which Olympic track cycling event is a derny used?",
+    "output": "Keirin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which event did Boris Onischenko compete before being disqualified for cheating at the 1976 Montreal Games?",
+    "output": "Modern Pentathlon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the only country to have hosted the winter and summer Olympics in the same year?",
+    "output": "Germany 1936"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Mark Spitz famously won seven gold medals in the 1972 Munich Olympics.  How many gold medals did he win the the 1968 Mexico City games?",
+    "output": "2"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which was the first country to host the Olympic games for a second time?",
+    "output": "France"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country were appearing at their first finals during Euro 2012 ?",
+    "output": "Ukraine"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which player was fined and given a one match ban for revealing his sponsored underpants after scoring?",
+    "output": "Nicklas Bendtner"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the only player to make the UEFA team of the tournament whose team was knocked out in the group stages?",
+    "output": "Zlatan Ibrahimovic"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the nationality of Pedro Proenca who refereed the final?",
+    "output": "Portuguese"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the nickname of Captain Pierce in the TV series MASH",
+    "output": "Hawkeye"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Where did Captain James Cook die",
+    "output": "Hawaii"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name the Captain of the Titanic when she sunk in 1912",
+    "output": "Edward Smith"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played Captain Blood in the 1935 movie.",
+    "output": "Errol Flynn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who made the album Captain Fantastic and the Brown Dirt Cowboy",
+    "output": "Elton John"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the first name of Captain Mainwaring in Dad's Army.",
+    "output": "George"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of Captain Pugwash's ship",
+    "output": "The Black Pig"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which German statesman was known as the Iron Chancellor?",
+    "output": "Otto von BISMARCK"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which U.S. artist was famous for his unique drip painting?",
+    "output": "JACKSON Pollack"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the field marshal who commanded the 8th army during the Battle of El Alamein?",
+    "output": "Bernard MONTGOMERY"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which celebrity chef who has appeared in Hell`s Kitchen and Kitchen Wars was born in Leeds?",
+    "output": "Marco PIERRE White"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which English explorer popularised tobacco in England and ia credited with planting the first potatoes in ireland/",
+    "output": "Sir Walter RALEIGH"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which English actress, married to Tim Burton starred in A Room With a View and Fight Club?",
+    "output": "HELENA Bonham Carter"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which cat spends most of his time chasing Tweety Pie?",
+    "output": "Sylvester."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who has friends Chris Rabbit and Mosey Mouse and enemies Farmer Giles and Rum Baa Baa?",
+    "output": "Henry's Cat."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Lasagna and pizza are the favourite foods of which cat?",
+    "output": "Garfield."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the cat on the show regularly watched by Bart and Lisa Simpson?",
+    "output": "Scratchy."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which cat featured in the Dandy comic?",
+    "output": "Korky the Cat."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Sea, Black, Bald, Phillipine and Crested are all types of what?",
+    "output": "Eagle"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which 2006 film does Mark Wahlberg try out for a University American Football team?",
+    "output": "Invincible"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which UK manufacturer produced models such as Trident, Spitfire, Bonneville, Daytona and Dolomite?",
+    "output": "Triumph"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In nautical terms, what is the name of the extension of a ship's side above the level of the weather deck?",
+    "output": "Bulwark"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name links a chic handbag, a Greek god and a parcel delivery company?",
+    "output": "Hermes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which one word connects Elton John, Steptoe & Son and a Disney animated film?",
+    "output": "Hercules"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which river flows through the Grand Canyon",
+    "output": "The Colorado River"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Valentia Island is off the coast of which European country?",
+    "output": "Ireland"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many points of the compass are there?",
+    "output": "32"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which group of British Islands would you find the port of Sullom Voe?",
+    "output": "The Shetlands"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the largest country through which the equator passes?",
+    "output": "Brazil"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the capital city of the USA state Florida?",
+    "output": "Tallahassee"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Vaduz is the capital of which doubly land locked central European principality?",
+    "output": "Liechtenstein"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the capital city of Morocco?",
+    "output": "Rabat"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The International border of China and one other country runs across the precise summit of Mount Everest. What is the capital city of the other country?",
+    "output": "Kathmandu"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Field Marshal Arthur Wellesley, shares his better known title with which Southern Hemisphere capital city?",
+    "output": "Wellington"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the current capital city of Turkey?",
+    "output": "Ankara"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Amsterdam is the capital city of the Netherlands, but where is the Dutch Seat of Government based?",
+    "output": "The Hague"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which country does the beer Singha originate?",
+    "output": "Thailand"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Hallertau, Tettnanger, Spalt, and Saaz all all varieties of what plant?",
+    "output": "Hops"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Canada, the Molson family owns which NHL Team?",
+    "output": "The Montreal Canadiens"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the first name of Mr. Guinness, of stout beer fame?",
+    "output": "Arthur"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Hite, Max and Cass are all brewed in which country?",
+    "output": "South Korea"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is quoted as saying Beer is proof that God loves us and wants us to be happy?",
+    "output": "Benjamin Franklin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name the late 1970's cult TV programme, which was based on the 16th century Chinese novel, journey to the west?",
+    "output": "Monkey."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is first in line to the British Throne?",
+    "output": "Charles, Prince of Wales."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Peter Benchley novel was made into a film in 1975 by Steven Spielberg?",
+    "output": "Jaws."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which song title connects Huey Lewis and the news, Jennifer Rush and Frankie goes to Hollywood?",
+    "output": "The power of love."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the nuclear reactor that caused worldwide concern after the earthquake in Japan, 2011?",
+    "output": "Fukushima Daiichi"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In April 2010, a drilling rig run by BP suffered an explosion in the Gulf of Mexico.  Name that rig.",
+    "output": "Deepwater Horizon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On 13 January 2012, what ship hit a rock off Isola del Giglio?",
+    "output": "Costa Concordia"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The famous Chilean miners saved in 2010 were originally mining for what  two substances?",
+    "output": "Copper and Gold"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Titanic had three anchors.  What was their combined weight (in tons)?",
+    "output": "31 tons"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which bomb was dropped on Nagasaki on 9 August, 1945",
+    "output": "Fat Man"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which musical group had the single New York Mining Disaster, 1941",
+    "output": "The Bee Gees"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "This former BBC royal reporter proved popular with the public, finishing as runner-up in the third series of the reality TV show I'm a Celebrity... Get Me Out of Here! in 2004.",
+    "output": "Jenny Bond"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Samantha Bond starred as Miss Moneypenny in four James Bond films between 1995 and 2002. She also plays the recurring character of Auntie Angela in which BBC semi-improvised comedy series?",
+    "output": "Outnumbered"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Flemish, English Cross and Garden Wall are all bonds used in what?",
+    "output": "Bricklaying"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What colour is Bond Street on a standard Monopoly board?",
+    "output": "Green"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "OK, a James Bond question: how many actors have played James Bond in the official' movies?",
+    "output": "Seven"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Since 1923 the phrase My Name is My Bond' (dictum meum pactum in Latin) has been the motto of which City institution, where deals are made with no written pledges and no exchange of documents?",
+    "output": "London Stock Exchange"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What ship was the subject of the mutiny led by Fletcher Christian against Capt. William Bligh.",
+    "output": "HMS Bounty"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "what was Sir Francis Drake'sship during his global circumnavigation between 1577 & 1580.",
+    "output": "Golden Hind"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which ship gained notoriety when it spilt oil all over Prince William Sound in Alaska in 1989.",
+    "output": "Exxon Valdez"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the worlds first nuclear powered aircraft carrier, still in commission with the US Navy",
+    "output": "USS Enterprise"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name of one of the most famous warships of WWII named after a German Chancellor - ordered to be sunk by Churchill.",
+    "output": "Bismarck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Worlds first nuclear powered sub & first to complete a submerged transit across North Pole.",
+    "output": "USS Nautilus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Raft used by Norwegian explorer Thor Heyerdahl named after Inca Sun God.",
+    "output": "Kon Tiki"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Launched in 1906 & became a generic term for modern battleships and the name of a class of battleships in the Royal Navy.",
+    "output": "HMS Dreadnought"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The satirical comedy Airplane! was released in what year?",
+    "output": "1980"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "MiniBus, NintendoJet, ScareBus, Chainsaw, Deathjet are all nicknames for which model of aircraft?",
+    "output": "Airbus A320"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In August 2009, the band Train released what hit, that made it to #3 on the American Billboard charts?",
+    "output": "Hey Soul Sister"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What make of car was used as the platform for the time machine in the Back to the Future franchise?",
+    "output": "Delorean"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The high speed network of bullet trains in Japan is known as what?",
+    "output": "Shinkansen"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The first coin-operated parking meter in the US was installed in Oklahoma City, Oklahoma. In what year was it installed?",
+    "output": "1935"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which city has the greatest number of Rolls Royce automobiles per capita?",
+    "output": "Hong Kong"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Of the two Wright brothers, who was born first?",
+    "output": "Wilbur"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which legendary creature has the body,back legs and tail of a lion and the head and wings of an eagle?",
+    "output": "Griffin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who became the first British Formula 1 champion in 1958?",
+    "output": "Mike Hawthorn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Which Jane Austin novel was initially titled First Impressions?",
+    "output": "Pride and Prejudice"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the most senior United Kingdom Royal Palace?",
+    "output": "St James Palace"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of country music`s first superstar who died at the age of 29 from drink and drug abuse?",
+    "output": "Hank Williams"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What brand of beer does Homer Simpson drink?",
+    "output": "Duff"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What popular drink was originally called `Brad`s Drink`?",
+    "output": "Pepsi"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who painted 'Absinthe Drinker' in 1901?",
+    "output": "Pablo Picasso"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What drink is made from molasses?",
+    "output": "Rum"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famous author once said `Work is the curse of the drinking class`?",
+    "output": "Oscar Wilde"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "RAF College Cranwell is located in which county",
+    "output": "Lincolnshire"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What would you be training for if you attended White Lodge, Richmond Park",
+    "output": "Classical Ballet"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which town is the administrative centre for the Open University",
+    "output": "Milton Keynes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who did John Wilkes Booth assassinate in April 1865?",
+    "output": "Abraham Lincoln"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Teddy bear is named after whom?",
+    "output": "Theodore Roosevelt"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What bird was first released by Noah?",
+    "output": "Raven"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who or what might suffer from wind-sucking and crib-biting?",
+    "output": "Horse"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "I'm playing all the right notes but not necessarily in the right order. (Bonus point for to whom)",
+    "output": "Eric Morecambe"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Familiarity breeds contempt - and children.",
+    "output": "Mark Twain"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Out, damned spot! Out, I say!",
+    "output": "Lady Macbeth"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Chamberlain seemed such a nice old gentleman that I thought I would give him my autograph.",
+    "output": "Adolf Hitler"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "It's not true that I had nothing on. I had the radio on!",
+    "output": "Marilyn Monroe"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On board ship, what is housed in a binnacle?",
+    "output": "Compass"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the proper name for the flag flown by the Merchant Navy sometimes known as a Red Duster?",
+    "output": "Red Ensign"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the meaning of the nautical term avast?",
+    "output": "Stop"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was a loblolly boy?",
+    "output": "Surgeon's assistant"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the ship commanded by Captain Pugwash?",
+    "output": "The Black Pig"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "After the mutiny on the Bounty, where did Christan Fletcher and his mutineers settle?",
+    "output": "Pitcairn Island"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Lucy Honeychurch is the heroine of which EM Forster novel later made into a film?",
+    "output": "A Room with a View"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famoust picture by Constable shows a wagon in the river near Flatford?",
+    "output": "The Haywain"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the author of the Game of Thrones series of novels?",
+    "output": "George R R Martin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novella A Clockwork Orange?",
+    "output": "Anthony Burgess"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which artist is renowned  for his paintings using the splatter and drip action method?",
+    "output": "Jackson Pollack"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the title of the play by Arthur Miller set around the Salem Witch trials of 1692?",
+    "output": "The Crucible"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who won the Booker Prize in 1981 for Midnight's Children?",
+    "output": "Salman Rushdie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many pints are in a Firkin?",
+    "output": "72"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Om which country does Singha beer originate?",
+    "output": "Thailand"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What are Pioneer, Challenger and Pilgrim varieties of?",
+    "output": "Varieties of Hop"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What year did prohibition start in the USA?",
+    "output": "1920"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country (according to 2010 statistics) is the country with the highest annual capita consumption of beer?",
+    "output": "Czech Republic"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which beer was advertised in the 1980s using scenes from the film Ice Cold in Alex?",
+    "output": "Carlsberg"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is used to flavour the Kriek beer from Belgium?",
+    "output": "Cherries"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What beer brand encouraged you to Follow the Bear in the 1980s?",
+    "output": "Hofmeister"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the title of the first James Bond novel published in 1953?",
+    "output": "Casino Royal"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Chief Electrician responsible for lighting on a film or TV set is known as what?",
+    "output": "Gaffer"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which farm animal appears on the flag of the Falklands Islands?",
+    "output": "Sheep"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Norse mythology, what is the name of the dwelling place of the gods?",
+    "output": "Asgard"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Taj Mahal is in which Indian city?",
+    "output": "Agra"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In geometry, what is the name given to a triangle with two equal sides and angles?",
+    "output": "Isosceles"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Kama Sutra was originally written in which ancient language?",
+    "output": "Sanskrit"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Under what surname did the Bronte sisters originally publish their work?",
+    "output": "Bell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the Greek god of shepherds and flocks?",
+    "output": "Pan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novel Moby Dick?",
+    "output": "Herman Melville"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the cartoon Roobarb and Custard, what colour is Custard?",
+    "output": "Pink"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the 16th President of the United States of America?",
+    "output": "Abraham Lincoln"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the correct term for a baby mackerel?",
+    "output": "Joey"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country does the football club Benfica come from?",
+    "output": "Portugal"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who invented Dynamite in 1867?",
+    "output": "Alfred Nobel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "If you travel due East from New York which country would you made landfall at first?",
+    "output": "Portugal"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the poem The Owl and the Pussycat?",
+    "output": "Edward Lear"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many rounds are there in an Olympic boxing match?",
+    "output": "4"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many emirates make up the United Arab Emirates?",
+    "output": "7"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the experimental raft built by Thor Heyerdahl and named after an Inca Sun God?",
+    "output": "Kon Tiki"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "My Name is My Bond is the motto of which London institution?",
+    "output": "London Stock Exchange"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the bomb dropped on Nagasaki in August 1945?",
+    "output": "Fat Man"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What part of the body is affected by Uveitis?",
+    "output": "Eyes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the Hornblower novels?",
+    "output": "C S Forester"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who or what may suffer from wind-sucking or crib-biting?",
+    "output": "Horse"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the helicopter used to transport the President of the USA?",
+    "output": "Marine One"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of Francis Drake's ship in which he circumnavigated the world?",
+    "output": "Golden Hind"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which capital city is closest to the Equator?",
+    "output": "Quito, Ecuador"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the highest mountain in the USA?",
+    "output": "Mount McKinley"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the longest river in Australia?",
+    "output": "River Murray"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many avenues radiate from the Arc De Triomphe in Paris?",
+    "output": "12"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which remote island in the Outer Hebrides was evacuated in 1930 and is no longer inhabited?",
+    "output": "St Kilda"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first British Prime Minister?",
+    "output": "Robert Walpole"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who did John Francis attempt to assassinated in 1842?",
+    "output": "Queen Victoria"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first person to cross the English Channel by aeroplane?",
+    "output": "Louis Bleriot"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "At Dettingen in 1743 who was the last British monarch to lead his troops into battle?",
+    "output": "George II"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "At the 1908 Olympic Games, City of London Police defeated Liverpool Polce to win gold - at what event?",
+    "output": "Tug of War"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who took Bonnie Prince Charlie disguised as a woman from Benbecula to Skye",
+    "output": "Flora McDonald"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "King Henry I reportededly died from eating a surfeit of .... what?",
+    "output": "Lampreys"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Desiree is a variety of what vegetable?",
+    "output": "Potato"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Noble Rot is a fungus affecting which fruit?",
+    "output": "Grapes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which animal was unknown in the west until 1869 when furs were obtained by a missionary?",
+    "output": "Giant Panda"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which organ in the body is affected by hepatitis?",
+    "output": "Liver"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is a mouflon a type of?",
+    "output": "Sheep"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the largest of the three paired muscles in the buttocks?",
+    "output": "Gluteus Maximus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What colour does litmus paper turn in acid solutions",
+    "output": "Red"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which planet orbits the sun at a n average distance of approximately 150 million kilometers?",
+    "output": "Earth"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is Britain's smallest bird of prey?",
+    "output": "Merlin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Graham Nash left which group in 1968 to join David Crosby and Stephen Stills?",
+    "output": "The Hollies"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was nominated for a Best Actress Oscar for her role as Mrs Robinson in The Graduate?",
+    "output": "Anne Bancroft"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On which instrument was the theme for The Third Man performed?",
+    "output": "Zither"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What film of 1968 set in the 41st Century starred Jane Fonda and Milo O'Shea?",
+    "output": "Barbarella"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What French term is used in ballet for dancing on the tip of the toe?",
+    "output": "En Pointe"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who sang  with Queen on their 1981 UK Number One Under Pressure?",
+    "output": "David Bowie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Whose assassination on 28 June 1914 sparked the war?",
+    "output": "Archduke Franz Ferdinand"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the British Prime Minister at the outbreak of war?",
+    "output": "Herbert Henry Asquith"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the music for the song Keep the Home Fires Burning?",
+    "output": "Ivor Novello"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many British troops were killed on the first day of the Battle of the Somme on 1 July 1916?",
+    "output": "20,000"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which country is Vimy Ridge, site of a battle in April 1917?",
+    "output": "Fracne"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which battle does Anzac Day specifically commemorate?",
+    "output": "Gallipoli"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote You smug-faced crowds with kindling eye, who cheer when soldier lads march by.  Sneak hom and pray you'll never know, the hell where youth and laughter go?",
+    "output": "Siegfried Sassoon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which president was shot whilst reviewing a military parade in October 1981?",
+    "output": "Anwar Sadat"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Lee Harvey Oswald shot John F Kennedy, but who shot him?",
+    "output": "Jack Ruby"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which year was John Lennon assassinated?",
+    "output": "1980"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who stabbed Jean-Paul Marat in his bath in 1793, an act which has later been seen as patriotic?",
+    "output": "Charlotte Corday"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the only British Prime Minister to have been assassinated?",
+    "output": "Spencer Perceval"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Politician Airey Neave was assassinated in Westminster in 1979 - how was the killing carried out?",
+    "output": "Car Bomb"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British jounalist was shot outside her home in Fulham 1999?",
+    "output": "Jill Dando"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Gerry Anderson TV character is modelled upon James Garner?",
+    "output": "Troy Tempest"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which fictional county would you find DCI Tom Barnaby?",
+    "output": "Midsomer"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which board game is also known as Reversi?",
+    "output": "Othello"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which David Essex hit was co-written by Mike Batt & Tim Rice?",
+    "output": "Winter's Tale"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Pound, cup and foot are all types of what?",
+    "output": "Measure"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A UK Number 1 for Diana Ross in March 1986 written by the Bee Gees?",
+    "output": "Chain Reaction"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who won an Academy Award for best supporting actor forThe Fighter?",
+    "output": "Christian Bale"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "An idiom meaning a no win situation came from which novel by Joseph Heller?",
+    "output": "Catch 22"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Tufted, Ruddy and Mandarin are types of which bird species?",
+    "output": "Duck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Lapsong souchong is a type of what?",
+    "output": "Tea"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who created the character of Brigit Jones?",
+    "output": "Helen Fielding"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1949 British film featured the character of Harry Lime?",
+    "output": "The Third Man"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is known in Scotland as 'Duke of Rothesay' and has the middle names of Philip Arthur George?",
+    "output": "Prince Charles"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actor has played Guy Perron in The Jewel in the Crown (1984), Dr. Jonathan Clemens in Alien 3 (1992), Sardo Numspa in The Golden Child (1986) and Benedict in Last Action Hero (1993)?",
+    "output": "Charles Dance"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Carlos Irwin EstĂŠvez is better known by what stage name?",
+    "output": "Charlie Sheen"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What are the first names of the Saatchi brothers? (Both required for 1 point)",
+    "output": "Maurice and Charles"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actor has been cast opposite Dakota Johnson to play Christian Grey in the film of Fifty Shades of Grey?",
+    "output": "Charlie Hunnam"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which hard-man American actor was married to Jill Ireland from 1968 until her death in 1990?",
+    "output": "Charles Bronson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the IATA airport code for the largest airport of France?",
+    "output": "CDG"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who sang the title song of the 1981 Bond film, becoming  the first title song artist to appear on screen in a Bond film?",
+    "output": "Sheena Easton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "For your eyes only was the 12th Bond film, and the 5th to star which actor in the lead role?",
+    "output": "Roger Moore"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which band sang the 1982 theme tune to Rocky III, 'Eye of the Tiger'?",
+    "output": "Survivor"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the final film directed, produced and co-written by Stanley Kubrick, starring Tom Cruise and Nicole Kidman in the lead roles?",
+    "output": "Eyes Wide Shut"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the more common name of the Peafowl, a species of flying birdbest known for the male's extravagant eye-spotted tail covert feathers?",
+    "output": "Peacock"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Erected in 1889, this object has become one of the most recognizable structures & the most-visited paid monument in the world?",
+    "output": "The Eiffel Tower"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Robert L May created which popular Christmas character in 1939?",
+    "output": "Rudolph"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On Christmas day in 2000, which country officially established a new National Anthem?",
+    "output": "Russia."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the poem Twas the night before Christmas also called \"A Visit from St. Nicholas in 1822?",
+    "output": "Clement Clarke Moore"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which saint's day is also known as Boxing Day?",
+    "output": "St Stephen."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "True or False? The German's made the first artificial Christmas tree out of Goose feathers?",
+    "output": "True"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "True or False? The word mistletoe comes from the gaelic words for kissing girl plant?",
+    "output": "False"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which comedy star plays the title character in the film Elf?",
+    "output": "Will Ferrel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which ancient relic was stolen by Scottish Activists from Westminster Abbey and returned to Scotland on Christmas day in 1950?",
+    "output": "Stone of Scone"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the poem 'If'?",
+    "output": "Rudyard Kipling"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "At the end of the novel 'The Day Of The Triffids', on what island do the two sighted protagonists Bill Masen and Josella Payton eventually find refuge?",
+    "output": "Isle of Wight"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which region in the Pacific ocean is also the name of a character in the Dr. Doolittle' stories?",
+    "output": "Polynesia"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which artist is famous for his statue The Thinker'?",
+    "output": "Auguste Rodin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Franz Hals painted his most famous work in 1624; what was it called?",
+    "output": "The Laughing Cavalier"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the pilot hero of Captain W.E. Johns stories?",
+    "output": "Biggles"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Scottish golfer (aka Mrs Doubtfire) has won a record eight European Tour Order of Merit titles, including a streak of seven consecutively from 1993 to 1999?",
+    "output": "Colin Montgomerie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which town is the cartoon series 'The Simpsons' based around?",
+    "output": "Springfield"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Since 1934, the annual Golf Masters tournament is the only major played each year at the same course. Name the course?",
+    "output": "Augusta National Golf Club"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the often used name of the political protest of throwing a beverage into a harbour in December 1773?",
+    "output": "The Boston Tea Party"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which American actor, who sadly passed on October 31st 1993 at the age of 23, was the older brother of Rain, Joaquin, Summer & Liberty?",
+    "output": "River Phoenix"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the German Chancellor, the primary force behind the unification of Germany 1871, who also had a famous battleship named after him?",
+    "output": "Otto von Bismarck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A Stephen King 1975 horror fiction novel which involves a writer (named Ben Mears) who returns to the town where he lived as a boy, to discover that the residents are all becoming vampires?",
+    "output": "Salem's Lot"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In what year was George Washington inaugurated as the first president of the United States?",
+    "output": "1789"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many presidents have been assassinated?",
+    "output": "Four"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which president's First Lady opened a clinic for drug and alcohol abusers?",
+    "output": "Gerald Ford"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which president served two non-consecutive terms and is counted chronologically as both the 22nd and 24th president?",
+    "output": "Grover Cleveland"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who became president following the assination of John F Kennedy in 1963?",
+    "output": "Lyndon B Johnson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which president was married to the actress Jane Wyman?",
+    "output": "Ronald Reagan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the only president to resign from office?",
+    "output": "Richard Nixon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was president for the duration of the First World War?",
+    "output": "Thomas Woodrow Wilson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What do the 1st, 3rd, 16th and 26th presidents have in common?",
+    "output": "Mount Rushmore"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which book features the characters Passepartout, Mr Fix and Aouda?",
+    "output": "Around The World In Eighty Days"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the classic thriller The Thirty-Nine Steps?",
+    "output": "John Buchan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novel Chitty Chitty Bang Bang : The Magical Car?",
+    "output": "Ian Fleming"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novel Black Beauty, first published in 1877?",
+    "output": "Anna Sewell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which author wrote the Foundation series of science fiction novels?",
+    "output": "Isaac Asimov"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the first part of JRR Tolkien's The Lord of the Rings trilogy called?",
+    "output": "The Fellowship of the Ring"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote East of Eden, Of Mice and Men and The Grapes of Wrath?",
+    "output": "John Steinbeck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote Jurassic Park, which the Spielberg film was based on?",
+    "output": "Michael Crichton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote Three Men In A Boat?",
+    "output": "Jerome K Jerome"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which broadsheet newspaper founded in 1821 as 'The New Observer' became the first to produce a colour supplement?",
+    "output": "The Sunday Times"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the title of The Beatles' first film released in 1964?",
+    "output": "A Hard Day's Night"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which member of the Royal family divorced on April 23rd 1992 and married again 8 months later?",
+    "output": "Princess Anne"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What did 15 men led by Bruce Reynolds do on August 8th, 1963 in Ledburn, Buckinghamshire?",
+    "output": "The Great Train Robbery"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "'Live Aid' pop concerts are staged on July 13th 1985 in London and which other US city?",
+    "output": "Philadelphia"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "At the 84th Academy Awards in 2012, which silent French film received ten nominations, winning five awards, including Best Picture?",
+    "output": "The Artist"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of Apollo 11's Lunar Module that landed Neil Armstrong and Buzz Aldrin on the surface of the moon in 1969?",
+    "output": "Eagle"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which country would you find budgerigars in their natural habitat?",
+    "output": "Australia"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name is given to a cow that has not had a calf?",
+    "output": "Heifer"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many walking legs does a lobster have?",
+    "output": "Ten"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From which animal do we get cashmere?",
+    "output": "Goats"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which element is represented by the symbol 'P' in the periodic table?",
+    "output": "Phosphorus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is a Kerry Blue?",
+    "output": "A breed of dog"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "By what name is the plant 'Atropa bella-donna' more commonly known?",
+    "output": "Deadly Nightshade"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the common game given to the spectacular light show the Aurora Borealis?",
+    "output": "The NORTHERN Lights."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the coffee house in Friends?",
+    "output": "CENTRAL Perk."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which London museum houses the world's largest collection of decorative and design?",
+    "output": "The VICTORIA and Albert Museum."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the U.S., who represents the government in the prosecution of criminal offences?",
+    "output": "The DISTRICT Attorney."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of Stanley Kubriks landmark 1968 sci-fi blockbuster?",
+    "output": "2001: A Space Odyssey"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who directed Alien and Blade Runner?",
+    "output": "Ridley Scott"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote 'The War of the Worlds' which has been adapted to film on four occassions?",
+    "output": "H. G. Wells"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the superhuman cyborg law enforcer played by Peter Weller in 1987?",
+    "output": "Robocop"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who supplied the voice for Darth Vader in the original Star Wars trilogy between 1977 and 1983?",
+    "output": "James Earl Jones"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the robot in 1986 smash 'Short Circuit'?",
+    "output": "Johnny 5"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who plays Sarah Connor in the first of the Terminator movies?",
+    "output": "Linda Hamilton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who co-wrote,produced,directed and starred in the 1981 film Reds?",
+    "output": "Warren Beatty."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the lead singer of Simply Red?",
+    "output": "Mick Hucknall."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Red River is a tributary of which U.S.river?",
+    "output": "Mississippi."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which branch of the British Army would a Redcap serve?",
+    "output": "Royal Military Police."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name is given to red Bordeaux wine?",
+    "output": "Claret."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which toy manufacturer produces the Connect 4 game?",
+    "output": "Hasbro."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the high speed train service that connects London to Paris and Brussels?",
+    "output": "Eurostar."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The film The French Connection is set in New York and which French city?",
+    "output": "Marseilles."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the host of BBC4's Only Connect?",
+    "output": "Victoria Coren Mitchell."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the anatomical name given to the tube that connects the pharynx and larynx to the lungs?",
+    "output": "The trachea."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the strait that connects San Francisco Bay to the Pacific Ocean?",
+    "output": "Golden Gate."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the device that connects a computer to the internet?",
+    "output": "A router."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Briish Airways subsidiary BA Connect was sold to which other airline?",
+    "output": "Flybe."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The human body has 5 basic types of taste: Sweet, Sour, Salty, Bitter and Umami. From what language do we borrow the word Umami from?",
+    "output": "Japanese"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of Heston Blumenthal's 3 Michelin starred restaurant in the UK?",
+    "output": "The Fat Duck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Keith Floyd used the song Peaches as a theme tune for many of his cookery programmes. Which group performed this song?",
+    "output": "The Stranglers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "True or False: Apples belong to the rose family?",
+    "output": "TRUE"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "One of the most hydrating foods to eat is the cucumber, which contains what percentage of water? 76%, 86% or 96%?",
+    "output": "96%"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actor has played the policeman Nick Rowan in the UK TV retro soap Heartbeat'?",
+    "output": "Nick Berry"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On 1st May 2014, renowned Michelin star chef Jason Atherton opened City Social' restaurant situated on level 24 of Tower 42 in London. Who was the previous highly rated chef to run a restaurant at this location?",
+    "output": "Gary Rhodes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which city was the world's biggest McDonalds fast food restaurant opened in 2012?",
+    "output": "London"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which of Shakespeare's plays begins with the words `If music be the food of love, play on`?",
+    "output": "Twelfth Night"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Disney Brothers Cartoon Studio was set up on October 16 1923 by Walt Disney and his brother, what was his brothers' first name?",
+    "output": "Roy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The company trademark incorporates the character Mickey Mouse, but was Mickey's original screen name?",
+    "output": "Mortimer"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1940 film was the first commercial film to be shown in stereophonic sound?",
+    "output": "Fantasia"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which year (+/- 2 years) was the original Disneyland resort to open to the general public?",
+    "output": "1955"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the only one of the 7(seven) Dwarfs not to have a beard?",
+    "output": "Dopey"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How old was Walt Disney when he died on December 15 1966? (+/- 5 years)",
+    "output": "65 years old"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actor originally voiced the 1995 Toy Story character 'Woody'?",
+    "output": "Tom Hanks"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Walt Disney holds the record for most Oscar nominations at 59. How many of these were converted into Oscar awards? (+/- two)",
+    "output": "22 awards"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the Griffin's family dog in Seth MacFarlane's cartoon series 'Family Guy'?",
+    "output": "Brian"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name is given to unsolicited or undesired electronic messages?",
+    "output": "Spam"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Arthurian legend for what was 'The Fisher King' responsible?",
+    "output": "Holy Grail"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which theory of behavioural science states that 'Positive reinforcement and indirect suggestion to achieve non-forced compliance can be more effective than direct legislation'?",
+    "output": "Nudge"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the only English winner of the World Snooker championships in the 1990's?",
+    "output": "John Parrott"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which iconic symbol of American independence is found in Philadelphia?",
+    "output": "Liberty Bell"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Malvern Hills are located in which three English counties?",
+    "output": "WORCESTERSHIRE, Herefordshire and Gloucestershire."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the British figure skater who was 1976 Olympic and World Champion?",
+    "output": "John CURRY."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which rock band had a hit with  (Don't fear) The reaper?",
+    "output": "Blue OYSTER Cult."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of G.K. Chesterton's detective priest?",
+    "output": "Father BROWN."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The creation of the county of Cumbria saw the disappearance of which two former counties?",
+    "output": "CUMBERLAND and Westmorland."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the Christian Eucharist, which two items represent the body and blood of Jesus Christ?",
+    "output": "BREAD and wine."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Nobel prize winner was offered the presidency of Israel?",
+    "output": "ALBERT Einstein"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which gunfight resulted in the deaths is Tom and Frank McLaury and Billy Clanton?",
+    "output": "The Gunfight at the O.K Corral."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Ishihara test is used to test for which condition?",
+    "output": "Colour blindness."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Trinity was the code name for the first testing of what?",
+    "output": "Atom bomb."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In chemistry, what test is used to determine the acidity or alkalinity of a solution?",
+    "output": "Litmus test."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Soul Limbo is used as the theme tune for which radio programme?",
+    "output": "Test match special."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the 1976 Olympics, who was the only competitor not to have a sex test?",
+    "output": "Princess Anne."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the test given to newborn babies to determine their condition?",
+    "output": "Apgar test."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "And currently, at what age are taxis required to have an MOT certificate?",
+    "output": "One year."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which singer nicknamed The Boss' had a cameo in the 2000 film HighFidelity'",
+    "output": "Bruce Springsteen"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who plays Captain Jack Sparrow's father Edward Teague in the Pirates of the Caribbean films?",
+    "output": "Keith Richards"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Country and western singer played the character Whistler' in the Blade Films",
+    "output": "Kris Kristofferson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who appears as God in the 1999 film Dogma'?",
+    "output": "Alanis Morrisette"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "True or false, Bobby Brown has a cameo in the film Ghostbusters 2'?",
+    "output": "TRUE"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which member of the group All Saints appeared in Bend it like Beckham'? Shaznay Lewis or Nicole Appleton?7",
+    "output": "Shaznay Lewis"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Brit-pop singer made his acting debut in the 1997 film Face'?",
+    "output": "Damon Albarn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Dwayne Johnson is better known by which nickname",
+    "output": "The Rock"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name the voice actor most famous for Winnie the Pooh, Kaa in Jungle Book, & Mr Stork in Dumbo.",
+    "output": "Stirling Holloway"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which caves are a Site of Special Scientific Interest (SSSI), near Wells in Somerset",
+    "output": "Wookie Hole"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In woodwork, what are butt, dovetail & mitre",
+    "output": "Joints"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which car manufacturer has produced the Taunus, Laser & Thunderbird models",
+    "output": "Ford"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name the third light blue property on a Monopoly board, that joins The Angel Islington & Euston Road.",
+    "output": "Pentonville Road"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the commonest bird in Britain?",
+    "output": "The wren."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On which island was the now extinct Elephant bird found?",
+    "output": "Madagascar."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A pandemonium is the collective noun for which order of birds?",
+    "output": "Parrots."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which bird has the Latin name Puffinus puffinus?",
+    "output": "Manx shearwater."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the video game who are the antagonists of the Angry Birds?",
+    "output": "Pigs."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who famously said I spent a lot of money on booze,birds and fast cars, the rest I just squandered?",
+    "output": "George Best."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which film can you the Sulaco spacship",
+    "output": "Aliens"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which TV series would you find the Liberator",
+    "output": "Blakes 7"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which film will you find the Rodger Young",
+    "output": "Starship Troopers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which film will you find the space craft called Churchill",
+    "output": "Lifeforce"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which film will you find the Jupiter 2 spaceship",
+    "output": "Lost In Space"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which film can you find the Oberon spaceship",
+    "output": "Planet of the Apes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the surly debut single from Magic",
+    "output": "Rude"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Released in September 2014 which Labrinth song sounds like it should be in your Beatles Collection",
+    "output": "Let It Be"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which cheery Pharell Williams song was used on Despicable Me 2 soundtrack",
+    "output": "Happy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which John Legend song knocked Pharell Willams completely off the No.1 spot on the US Billboard",
+    "output": "All Of Me"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which accusing Calvin Harris song reached No1 on the UK Singles Chart on 14th Sept 2014",
+    "output": "Blame"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name the scarey debut Single from Ella Henderson released in June 2014",
+    "output": "Ghost"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Released in August 2014, which noisy song from Jessie J features Ariana Grande and Nicki Minaj",
+    "output": "Bang Bang"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Released in July 2014, which deadly song is from Iggy Azalea and features Rita Ora",
+    "output": "Black Widow"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which battle is commonly referred to as Custer's Last Stand?",
+    "output": "Little Big Horn."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the last book of the Old Testament?",
+    "output": "Malachi."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the book Last of the Mohicans?",
+    "output": "James Fenimore Cooper."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which football team were the last to win the English football league Division One?",
+    "output": "Leeds United."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What mission number was the last Apollo lunar landing?",
+    "output": "17."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which band's debut single was Last Train to Clarksville?",
+    "output": "The Monkees."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who created the television series Last of the Summer Wine?",
+    "output": "Roy Clarke."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which month does The Last Night of the Proms take place?",
+    "output": "September."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the first name of cricket umpire Dickie Bird",
+    "output": "Harold"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which US President's wife was known as Bird",
+    "output": "Lyndon B Johnson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who starred alongside Rod Taylor in Hitchcock's movie The Birds",
+    "output": "Tippi Hedren"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Birds were a 60s R&B; group, but name their guitarist who went on to bigger things, and still tours in 2014",
+    "output": "Ronnie Wood"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The birdeating spider (the largest spider in the world is found in what part of the world",
+    "output": "South America"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is credited with organising the first package holidays?",
+    "output": "Thomas COOK."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Strawberry tongue is a characteristic of which (colourful) disease?",
+    "output": "SCARLET fever."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which U.S. band had hits with Sylvia's mother and  A little bit more?",
+    "output": "Dr. HOOK."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the film director whose films include Bladerunner and Gladiator?",
+    "output": "Ridley SCOTT."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Arthurian legend, what is the name of the enchantress who is Arthur's half sister?",
+    "output": "MORGAN le Fey."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Disney film includes the characters Bubbles,Crush and Mr Ray?",
+    "output": "Finding NEMO."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which U.S. actor played the title role in  Spartacus ?",
+    "output": "KIRK Douglas."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who starred as Gracie Hart in the 2000 film Miss Congeniality?",
+    "output": "Sandra Bullock."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which Dickens novel does Miss Havisham appear?",
+    "output": "Great Expectations."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the 1989 film, who was Driving Miss Daisy?",
+    "output": "Morgan Freeman."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Where does Agatha Christie's Miss Marple live?",
+    "output": "St.Mary Mead."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The musical Miss Saigon is based on which Puccini opera?",
+    "output": "Madame Butterfly."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Miss Phillipines, Mary Jean Lastimosa currently holds which title?",
+    "output": "Miss Universe."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the sunsme of The Muppets Miss Piggy?",
+    "output": "Lee"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Greek hero set off on a quest to find the golden fleece?",
+    "output": "Jason"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which God did the ancient Egyptians believe protected the souls of the dead?",
+    "output": "Anubis"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the Roman God of doorways, gates and passageways?",
+    "output": "Janus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Norse myth, what was the name of Odin's eight- legged horse?",
+    "output": "Sleipnir"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Greek mythology, who was the mother (and later wife) of King Oedipus?",
+    "output": "Queen Jocasta of Thebes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Norse mythology who was the shield maiden cursed to sleep within a circle of fire?",
+    "output": "Brunhilde"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Greek warrior and hero killedthe monster called the Chimera?",
+    "output": "Bellerophon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Roman legend, which animals are said to have saved Rome from a surprise attack by raising an alarm?",
+    "output": "Geese"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Picture This, Blondies 1978 single was taken from which number one album?",
+    "output": "Parallel Lines."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novel Portrait of the Artist as a Young Man?",
+    "output": "James Joyce."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the story collection Portrait of the Artist as a Young Dog?",
+    "output": "Dylan Thomas."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which U.S. state is the Painted Desert ?",
+    "output": "Arizona."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novel  The Picture of Dorian Grey?",
+    "output": "Oscar Wilde."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What type of creature is a Painted Lady?",
+    "output": "Butterfly."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "By what other name is the Flying Fox known?",
+    "output": "The FRUIT Bat."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From what material is the Taj Mahal constructed?",
+    "output": "White MARBLE."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Scottish football club is nicknamed The Arabs?",
+    "output": "DUNDEE United."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "which region of the earth's stratosphere traps most of the sun's UV radiation?",
+    "output": "The Ozone LAYER."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the trophy awarded to the NHL Play-off winners?",
+    "output": "Stanley CUP."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name is given to the Northumberland dish consisting of layered potato,onion and cheese?",
+    "output": "PAN Haggerty."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played the female lead in the 1933 movie King Kong?",
+    "output": "Fay Wray"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which song, released by Elton John as a single in 1975, was a tribute to tennis player Billie Jean King?",
+    "output": "Philadelphia Freedom"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the US cartoon series King of the Hill, what is Hank Hill's profession?",
+    "output": "Propane salesman"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who succeeded Mervyn King, Governor of the Bank of England until 2013?",
+    "output": "Mark Carney"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played television character Jason King in the early 1970s?",
+    "output": "Peter Wyngarde"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Martin Luther King was assassinated in 1968 while standing on the balcony of which type of building?",
+    "output": "A motel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Last King of Scotland was a 2006 movie, that featured which African leader in the storyline?",
+    "output": "Idi Amin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the singer and voice artist behind King Louis in the cartoon version of Jungle Book?",
+    "output": "Louis Prima"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Name the Ancient Greek Muse of Dance?",
+    "output": "Terpsichore"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the oldest man in the Old Testament?",
+    "output": "Methusala"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the chemical symbol for Gold?",
+    "output": "Au"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the speed of light (in miles per second)?",
+    "output": "186,000"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In science fiction, who formulated the Three Laws of Robotics?",
+    "output": "Isaac Asimov"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the highest mountain in Great Britain?",
+    "output": "Ben Nevis"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the chemical symbol for Silver?",
+    "output": "Ag"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which U.S. Serial Killer was nicknamed The Killer Clown?",
+    "output": "John Wayne Gacy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From which plant do we derive the drug Digitalis?",
+    "output": "Foxglove"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many centimetres are there in a 'Hand', the measurement used on horses?",
+    "output": "10"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What were the names of the 3 Bronte sisters?",
+    "output": "Anne, Charlotte and Emily"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is a traditional Welsh stew usually made using lamb, leeks, potato, swede and carrot",
+    "output": "Cawl"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Irish dish is made by combining mashed potatoes, chopped spring onions, butter and milk",
+    "output": "Champ"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which traditional Irish loaf is made using flour, bicarbonate of soda and buttermilk",
+    "output": "Soda Bread"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which traditional dessert is made from strawberries, broken meringue and cream",
+    "output": "Eton Mess"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Scottish soup is made from smoked haddock, potatoes and onions",
+    "output": "Cullen Skink"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What do we call, particular to one county, an elongated suet crust with a savoury filling at one end and a sweet filling at the other",
+    "output": "Bedfordshire Clanger"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "From what type of wood was Pinocchio carved?",
+    "output": "Pine."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the kid's TV series Rainbow - what kind of animal was George meant to be?",
+    "output": "Hippo."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which ventriloquist was Lord Charles' sidekick?",
+    "output": "Ray Allen."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which TV series did the Muppets first appear?",
+    "output": "Sesame Street."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the dog in Punch and Judy?",
+    "output": "Toby."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which Gerry Anderson TV series did Mike Mercury appear?",
+    "output": "Supercar."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Thunderbirds what was the unnamed villain known as?",
+    "output": "The Hood."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the Sooty show what kind of animal was Ramsbottom?",
+    "output": "Snake."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote and performed as Captain Kremmen",
+    "output": "Kenny Everett"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who captained the whaling ship Pequod",
+    "output": "Captain Ahab"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Captain Cook is a geographical area which grows coffee on which island",
+    "output": "Hawaii"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Belgian cartoonist created Captain Haddock",
+    "output": "Herge"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of Captain Mainwaring's wife",
+    "output": "Elizabeth"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Captain John Francis McIntyre is a fictional TV character, better known by what name",
+    "output": "Trapper"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played the title character in the film Hook",
+    "output": "Dustin Hoffman"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was captain of HMS Bounty at the time of the famous mutiny",
+    "output": "Captain Bligh"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How long does it take from light from the Sun to travel to Earth?",
+    "output": "8 minutes and 20 seconds"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On average who's hearts beat faster; men or women?",
+    "output": "Women"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Rovers Return is now a free house but is still supplied by which brewery?",
+    "output": "Newton & Ridley"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the inn where Jim Hawkins lives at the start of Trwasure Island?",
+    "output": "The Admiral Benbow"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the local in Only Fools And Horses?",
+    "output": "Nag's head"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "This Cornish pub is the name of a Daphne du Maurier novel and Alfred Hitchcock film.",
+    "output": "Jamaica Inn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the Edinburgh pub favoured by Ian Rankin's Inspector Rebus?",
+    "output": "The Oxford Bar"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Shaun of the Dead and Minder featured watering holes with what name common to both?",
+    "output": "The Winchester"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the second book of the bible?",
+    "output": "Exodus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the second book in the Harry Potter series?",
+    "output": "The Chamber of Secrets"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the second president of the USA?",
+    "output": "John Adams"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the second planet from the sun?",
+    "output": "Venus"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the second letter of the Greek alphabet?",
+    "output": "Beta"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the second element in the periodic table?",
+    "output": "Helium"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the second film in the Indiana Jones franchise?",
+    "output": "Indiana Jones and the Temple of Doom"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who wrote the novel Dracula, published in 1897?",
+    "output": "Abraham Bram Stoker"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In legend, vampires are unable to cross a threshold without being invited.  What other natural barrier are they unable to cross?",
+    "output": "Running water"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British film company produced many vampire movies in the 1960's and 70's?",
+    "output": "Hammer"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which famous horror movie star was buried in his Dracula costume?",
+    "output": "Bela Lugosi"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Hungarian Countess is reputed to have killed over 600 women in order to bathe in their blood?",
+    "output": "Countess Elizabeth Bathory"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "On average, who has the faster/sharpest reflexes?",
+    "output": "Women"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the first name of Bond Villan Mr Scaramanga from 'The Man With The Golden Gun'?",
+    "output": "Francisco"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Grace Jones played May Day in which film?",
+    "output": "A View to a Kill"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who sang the theme song in the film 'From Russia with Love'?",
+    "output": "Matt Monro"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "George Lazenby's only Bond film was 'On Her Majesty's Secret Service'. Who played  Blofeld in that film?",
+    "output": "Telly Savalas"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which character has been played among others by Jack Lord, Cec Linder, David Hedison and Jeffrey Wright?",
+    "output": "Felix Leiter"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which singer had a cameo as a fencing instructor in 'Die Another Day'?",
+    "output": "Madonna"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which was the last film in which Desmond Llewelyn played Q?",
+    "output": "The World Is Not Enough"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Olympic silver medallist played Oddjob in Goldfinger?",
+    "output": "Harold Sakata"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which was the first James Bond film directed by Sam Mendes?",
+    "output": "Skyfall"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Sean Connery returned as 007 in 'Never Say Never Again' but on which of Ian Fleming's books was the film based?",
+    "output": "Thunderball"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the capital city of the Kingdom of the Netherlands?",
+    "output": "Amsterdam"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which river traditionally forms the border between England and Scotland ?",
+    "output": "The River Tweed"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which actress played Samantha in the comedy series Bewitched",
+    "output": "Elizabeth Montgomery"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1965 movie, remade in 2004, involved the survival of passengers after their plane crashed in the desert.",
+    "output": "Flight of the Phoenix"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sports stadium has the highest seating capacity in the world (at 247,000)",
+    "output": "Indianapolis Speedway"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which car manufacturer's current range includes the Navigator, MKX & MKC models",
+    "output": "Lincoln"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which singer died in a crash of his own experimental aircraft",
+    "output": "John Denver"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the character name of Commander Shore's daughter in the 60's series Stingray (voiced by Lois Maxwell)",
+    "output": "Atlanta"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who had hits with Wishin' and Hopin and You don't have to say you love me",
+    "output": "Dusty Springfield"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which X-Men character has the real name of Ororo Munroe?",
+    "output": "STORM"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which English alternate rock band released the album called \"Tilt\" in 1999?",
+    "output": "The LIGHTNING Seeds"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the official Presidential Anthem of the United States?",
+    "output": "HAIL to the Chief"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which children's cartoon series featured characters called Lion-O, Cheetara, Panthro and Tygra?",
+    "output": "THUNDERcats"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "To complain or find fault in a petty or disagreeable way; a peevish complaint?",
+    "output": "Carp"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first woman in Space?",
+    "output": "Valentina Tereshkova"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first woman to win a Nobel Prize?",
+    "output": "Marie Curie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first woman to win a Best Director 'Oscar'?",
+    "output": "Kathryn Bigelow"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country was the first to grant all adult women the right to vote for it's Parliament?",
+    "output": "New Zealand in 1893"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which shark-infested movie was the first to take $100 million at the box office?",
+    "output": "Jaws"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Toy story, which of Woddys' boots has Andy's name written on it?",
+    "output": "The right one"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Bruce Willis is best known for his role of John McCain in which film series?",
+    "output": "Die Hard"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In what film would you find bookstore owner William Thacker and Hollywood superstar Anna Scott?",
+    "output": "Notting Hill"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What 1997 film was the highest grossing film of the 90's decade?",
+    "output": "Titanic"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was Roger Moore's first film as James Bond?",
+    "output": "Live and Let Die"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What Disney film features the best belling song of 2014 Let It Go'?",
+    "output": "Frozen"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Monica and Ross Geller were brother and sister in which long running American television series?",
+    "output": "F.R.I.E.N.D.S"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Phil Redmond created with UK Television Soap Opera 18 years ago?",
+    "output": "Hollyoaks"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In what Soap would you expect to find Miffield Hall later renamed to Home Farm Manor?",
+    "output": "Emmerdale"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What Netflix exclusive programme chronicles the life of Piper Chapman and her experiences in an American State Prison?",
+    "output": "Orange is the New Black"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Neighbours is set Melbourne in the fictional suburb of Erinsborough but what is the name of the road in which it is set?",
+    "output": "Ramsey Street"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which reality show would you expect to find siblings Kim, Khloe, Kortney, Kendell, Kylie and Rob?",
+    "output": "Keeping up with the Kardashians"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Faulty Towers ran for a total of four years, but how many episodes were produced and released?",
+    "output": "12"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is a soldier or airman assigned to a commissioned officer as a personal servant called?",
+    "output": "Batman"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "According to the poet Dante, for whom were the tortures of the sixth Circle of Hell reserved?",
+    "output": "Heretics"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the sixth letter of the Greek alphabet?",
+    "output": "zeta"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the sixth planet in our Solar System?",
+    "output": "Saturn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the visit attraction in Bodelva, Cornwall, where biodomes house plants from around the world?",
+    "output": "The Eden Project"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name for the Zimbabwean Capital 'Harare' before 1982?",
+    "output": "Salisbury"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the surname of the lead character in the 'Dirty Harry' series of movies?",
+    "output": "Harry Callahan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the home ground of Queen of the South Football Club in Dumfries, Scotland?",
+    "output": "Palmerston Park"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the clerical detective created by G.K. Chesterton?",
+    "output": "Father Brown"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the real name of Actor/Comedian Robbie Coltrane?",
+    "output": "Anthony McMillan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the real name of author George Orwell?",
+    "output": "Eric Arthur Blair"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What links Gerry Rafferty to Sherlock Holmes?",
+    "output": "Baker Street"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Whose grave in Winchelsea bears the epitaph \"I told you I was ill\"?",
+    "output": "Spike Milligan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Where is there a barber showing photographs of every head he's had the pleasure to know?",
+    "output": "Penny Lane"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What fictional character lives at 32 Windsor Gardens?",
+    "output": "Paddington Bear"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the only London station to span the Thames, with entrances on both sides of the river?",
+    "output": "Blackfriars"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which city connects the headquarters of OPEC, the burial place of Beethoven, and Rigsby's cat in Rising Damp?",
+    "output": "Vienna"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which skier spectacularly summersaulted through 2 barriers, landing on his head, in the downhill race at the winter Olympics in Nagano. Then went on to win 2 gold medals a few days later?",
+    "output": "Hermann Maier"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the significant total reached when all the numbers on a roulette wheel are added together?",
+    "output": "666"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who is the only player to have played in both a football and cricket world cup?",
+    "output": "Sir Viv Richards"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sport features the terms cow corner, a featherbed, dibbly dobbly and a sticky dog?",
+    "output": "Cricket"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What will be the first city to host the summer and winter Olympics, after being chosen to stage the 2022 Winter Games?",
+    "output": "Beijing"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first unseeded player to win the Men's Wimbledon Singles Title?",
+    "output": "Boris Becker"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played Gary's flatmate in the first series of Men Behaving Badly?",
+    "output": "Harry Enfield."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sitcom actor and comedian fell off a treadmill in Peter Kay's version of Amarillo for Comic Relief?",
+    "output": "Ronnie Corbett"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which sitcom did Nicolas Lindhurst first gain national recognition?",
+    "output": "Butterflies"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which company was founded in a draper's shop in Glasgow in 1849?",
+    "output": "House of Fraser"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the alcoholic beverage similar to cider which is made from fermented pears?",
+    "output": "Perry"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What former monetary unit was equal to a quarter of an old penny?",
+    "output": "Farthing"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of the pig in Animal Farm?",
+    "output": "Napoleon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was David Bowie's real name?",
+    "output": "David Jones"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sports commentator wrote the autobiography Unless I'm Very Much Mistaken?",
+    "output": "Murray Walker"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who replaced Anneka Rice in the TV programme Treasure Hunt?",
+    "output": "Annabel Croft"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is England's highest mountain?",
+    "output": "Scafell Pike"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "During the 1980s, which drink was promoted with the advertising slogan, 'the totally tropical taste'?",
+    "output": "Lilt"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 70s band that has recently been reformed by lead singer Les McKeown?",
+    "output": "Bay City Rollers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What creature is carved into the handle of Mary Poppins' umbrella?",
+    "output": "A parrot"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "There have been 12 prime ministers during the queen's reign. How many of them were Conservative?",
+    "output": "8"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What links a village in Oxfordshire, a game show that was presented by Jasper Carrott, and David Beckham?",
+    "output": "Golden Balls"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "When asked where should one wear perfume, who replied \"Wherever one wants to be kissed\"",
+    "output": "Coco Chanel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sit com actor went on to play the original Phantom in the West End and Broadway?",
+    "output": "Michael Crawford"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 80s pop act had their Grammy revoked for not singing the vocals on their album?",
+    "output": "Milli Vanilli"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which book published in 1988 and winner of the Whitbread Award, was the centre of a major international controversy?",
+    "output": "The Satanic Verses"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Where did the Ossis and the Wessis meet for the first time in 28 years, in 1989?",
+    "output": "The Berlin Wall"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Sue Johnston and Ricky Tomlinson play Jim and Barbara Royle in the Royle Family, but which other well known married couple did they play in the 80's?",
+    "output": "Bobby and Sheila Grant"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1981 song contains the lyrics \" And I've lost my light. For I toss and turn, I can't sleep at night\"?",
+    "output": "Tainted Love"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Charlotte, Desiree and Rooster are varieties of which type of vegetable?",
+    "output": "Potato"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What rebellious event was organised in 1773 by the Sons of Liberty as a protest against taxation without representation?",
+    "output": "Boston Tea Party"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the spirit that is used in the cocktails Mai Tai and Daiquiri?",
+    "output": "Rum"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which biennial sporting fixture was cancelled due to 9/11?",
+    "output": "Ryder Cup"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The rights to which children's book were bequeathed to the Great Ormond Street Hospital in 1929?",
+    "output": "Peter Pan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Kopi Luwak, produced mainly in Indonesia, and a waste product of the civet, is the most expensive variety of what?",
+    "output": "Coffee"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who had a hit song in the late 60s with Hazy Shade Of Winter?",
+    "output": "Simon & Garfunkel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Winterfell is the house of what family in Game of Thrones?",
+    "output": "Stark"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What cocktail's original recipe contains the spirits tequila, vodka, light rum, triple sec, and gin, and has an alcohol content of 22%?",
+    "output": "Long Island Ice Tea"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many flakes of snow have to fall in the 24 hours of the 25th December anywhere in the UK to be classified as a White christmas?",
+    "output": "One"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which book was made into a 26 minute animated TV special in 1982, and had David Bowie as the narrator in the US version?",
+    "output": "The Snowman"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What sweet was first advertised 30 years ago featuring a polar bear?",
+    "output": "Fox's Glacier Mints"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1983 film starring Glen Close, Jeff Goldbloom, Kevin Kline and Tom Berenger was nominated for 3 Oscars, including Best Picture?",
+    "output": "The Big Chill"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A character in the sitcom Friends, or a provisioner of candles and soaps?",
+    "output": "Chandler"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A famous guitarist, or an young attendant upon a person of rank?",
+    "output": "Page"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A TV series starring Bill Maynard in the early 80's, or the electrician in charge of a film set?",
+    "output": "Gaffer"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The actress who played Mindy in Mork and Mindy, or an artisan builder of clay walls using straw?",
+    "output": "Dawber"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Ronnie Barker in Open All Hours, or a craftsman who produced wooden chests?",
+    "output": "Arkwright"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "This character lived at 11 Coronation Street, and is also the name of a leather maker?",
+    "output": "Tanner"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British mathematician created a basic computer in 1835?",
+    "output": "Charles Babbage"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Of what is Selenology the study?",
+    "output": "The moon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which is the oldest theatre in current use in London?",
+    "output": "The Theatre Royal, Drury Lane."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is produced in a ginnery?",
+    "output": "Cotton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which English Queen had 17 children and outlived all of them?",
+    "output": "Queen Anne"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Carry-On actor starred in Bless This House?",
+    "output": "Sid James"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the occupation of Casanova?",
+    "output": "Librarian"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name for small round pieces of lamb, or chocolates with hazelnuts?",
+    "output": "Noisettes"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who narrated the Mr Men series?",
+    "output": "Arthur Lowe"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Mick Robertson and Jenny Handley presented which Children's TV Programme?",
+    "output": "Magpie"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In Sex in the City, what was Carrie's last name?",
+    "output": "Bradshaw"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who hosted Call My Bluff?",
+    "output": "Robin Ray"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was Coronation Street originally to be called?",
+    "output": "Florizel Street"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who starred alongside Polly James in the first series of The Liver Birds?",
+    "output": "Pauline Collins"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the character played by Frances de la Tour in Rising Damp?",
+    "output": "Miss Jones"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "1313 Webfoot Walk, Duckburg, Calisota",
+    "output": "Donald Duck"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Apt 56B, Whitehaven Mansions, Sandhurst Sq, London",
+    "output": "Hercule Poirot"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "52 Festive Road, Putney, London",
+    "output": "Mr Benn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "1313 Mockingbird Lane, Mockingbird Heights, USA.",
+    "output": "The Munsters"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name was given to privateers, authorized to conduct raids on shipping of a nation at war with France, on behalf of the French crown?",
+    "output": "Corsairs"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In 2002, who filed for divorce from his wife Lisa Marie Presley after being married for just three months?",
+    "output": "Nicolas Cage"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the original name of Wembley Stadium?",
+    "output": "Empire Stadium"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Charles-Ădouard Jeanneret-Gris  was better known as who?",
+    "output": "Le Corbusier"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which British aircraft manufacturer produced the Spitfire?",
+    "output": "Supermarine"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who said When a man is tired of London, he is tired of life?",
+    "output": "Samuel Johnson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was Marble Arch in London originally designed to be?",
+    "output": "The entrance to Buckingham Palace."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Winner in a poll of Classic FM's most popular piece of music in 2016, which composer also wrote A London Symphony",
+    "output": "Ralph Vaughan Williams"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who resides in Mansion House?",
+    "output": "The Lord Mayor of London"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Canary Wharf is in what London borough?",
+    "output": "Tower Hamlets"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which battle of 1066 is also the name of a football ground?",
+    "output": "Stamford Bridge"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Statues of which political leader stand in Tavistock Square and Parliament Square?",
+    "output": "Gandhi"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of London's largest underground river?",
+    "output": "Fleet"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which area of London is believed to derive its name from a former hunting cry?",
+    "output": "Soho"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which sea has no coast?",
+    "output": "The Sargasso Sea"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Royal dynasty followed the Normans?",
+    "output": "Plantagenet"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Hans Riegel of Bonn, Germany, formed which confectionary company in 1920?",
+    "output": "Haribo"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the Harry Potter books, what type of mythical creature is 'Fawkes'?",
+    "output": "Phoenix"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The songs 'Tell Me It's Not True' and 'Marilyn Monroe' come from which stage musical?",
+    "output": "Blood Brothers"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What name is given to a folded pizza?",
+    "output": "Calzone"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which poet was buried standing upright in Westminster Abbey?",
+    "output": "Ben Johnson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Pierre Basile fired the crossbow that caused the death of which English king?",
+    "output": "Richard I"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Beatles song was commissioned by the BBC to represent the United Kingdom in the first global satellite television link?",
+    "output": "All you need is love"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who played lead guitar on While My Guitar Gently Weeps, on The White Album?",
+    "output": "Eric Clapton"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the US stadium where the Beatles played their last ever live concert?",
+    "output": "Candlestick Park"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Album cover features 5 Beatles?",
+    "output": "Abbey Road"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "For whom did Paul McCartney write Hey Jude?",
+    "output": "Julian Lennon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What are the two States that are rectangular?",
+    "output": "Colorado and Wyoming"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the longest river in the USA ?",
+    "output": "Missouri"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What State was purchased from Russia in 1867 for 7.2 million dollars?",
+    "output": "Alaska"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Oscar nominated film of 2014 chronicles Martin Luther King's campaign to secure equal voting rights via an epic march?",
+    "output": "Selma"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the last British King to rule over the US colonies?",
+    "output": "King George III"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What drink was invented by pharmacist Caleb Bradham in North Carolina in 1893, and marketed under the heading Delicious and Healthful?",
+    "output": "Pepsi-Cola"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Path Of The Righteous Man quote from the film Pulp Fiction comes from which Book of the Bible?",
+    "output": "Ezekiel"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 2004 movie mapped the journey across South America by a young Che Guevara?",
+    "output": "The Motorcycle Diaries"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which film contains the line I'm going to cut your heart out with a spoon!",
+    "output": "Robin Hood:Prince of Thieves"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which country singer's story was filmed as The Coalminers Daughter in 1980?",
+    "output": "Loretta Lynn"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the name of the Yorkshire pub featured in the 1981 movie An American Werewolf in London?",
+    "output": "The Slaughtered Lamb"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In 1919, Chaplin formed United Artists with 3 other Hollywood greats. Name one.",
+    "output": "Douglas Fairbanks , Mary Pickford and D W Griffith"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "How many roles did Alec Guinness play in Kind Hearts And Coronets?",
+    "output": "8"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The Life of Brian was produced by Handmade Films. Who owned Handmade Films?",
+    "output": "George Harrison"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which film still hold the record for using the highest number of extras?",
+    "output": "Gandhi"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What character has been played by Robert Donat in 1935, Kenneth More in 1959 and Robert Powell in 1978?",
+    "output": "Richard Hannay"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A novel by Irvine Welsh set in Edinburgh was made into which 1996 film?",
+    "output": "Trainspotting"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The multi Oscar winning Chariots of Fire was based on the lives of which 2 athletes?",
+    "output": "Eric Liddell and Harold Abrahams"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 1985 romantic comedy starring Alexandra Pigg and Margi Clarke was set in Liverpool?",
+    "output": "Letter To Brezhnev"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Peter Howitt is probably best known for playing the part of Joey Boswell in Bread, but what film did he write the screenplay for, and direct in 1998?",
+    "output": "Sliding Doors"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which 80s Top 10 hit begins with the line “I was happy in the haze of a drunken hour”?",
+    "output": "Heaven Knows I’m Miserable Now"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which comedian was the host of the short lived Channel 4 programme, TV Heaven Telly Hell?",
+    "output": "Sean Lock"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The band Heaven 17 took their name from which Stanley Kubrick film?",
+    "output": "A Clockwork Orange"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "According to the famous line, hell hath no fury like what?",
+    "output": "A woman scorned"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the subtitle of the 3rd film in the Hellraiser series of films?",
+    "output": "Hell On Earth"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the title of Maria McKee’s only UK number 1, due to it’s use in the film Days Of Thunder?",
+    "output": "Show Me Heaven"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What was the catchphrase of the Hanna-Barbera character Snagglepuss?",
+    "output": "Heavens to Murgatroyd"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Ron Perlman plays which comic book superhero in 2 films of the Noughties?",
+    "output": "Hellboy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Brother Bones' whistled version of which song is the Harlem Globetrotter's signature?",
+    "output": "Sweet Georgia Brown."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which Dan Brown novel  is the first to feature Robert Langdon?",
+    "output": "Angels and Demons."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which US state is the Ivy League Brown University?",
+    "output": "Providence Rhode Island"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who actress played Sister Sarah Brown in the1955 musical film Guys and Dolls?",
+    "output": "Jean Simmons."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the lead singer of the band whose only UK chart topper was  So you win again",
+    "output": "Errol Brown."
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Italian gynaecologist Doctor Giorgio Fischer invented which surgical procedure in 1974?",
+    "output": "Liposuction"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Vatsyayana completed which erotic piece of work in 400 AD?",
+    "output": "Kama Sutra"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "A stogie is a cheap, thin what?",
+    "output": "Cigar"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the name of Inspector Gadget’s dog in the children’s tv cartoon series ‘Inspector Gadget’?",
+    "output": "Brain"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "What is the chemical compound Calcium Oxide commonly known as?",
+    "output": "Quicklime (or burnt lime)"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In the human body, the hallux is more commonly known by what name?",
+    "output": "Big toe"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The wool of a Shahtoosh shawl comes from which endangered animal?",
+    "output": "Tibetan antelope (or Chiru)"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The boxer Sonny Liston appears on the cover of which Beatles album?",
+    "output": "Sgt Pepper’s Lonely Hearts Club Band"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Which French sculptor died in November 1917?",
+    "output": "Auguste Rodin"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "‘Air & Style’ and ‘X-Trail Jam’ are events in which sport?",
+    "output": "Snowboarding"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Lester B. Pearson became Prime Minister of which country in April 1963?",
+    "output": "Canada"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The conflict between rival political factions the Girondins and the Jacobins, during the French Revolution, was known as The Reign of what?",
+    "output": "Terror"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The liqueur Maraschino is flavoured with which fruit?",
+    "output": "Cherries"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Piemont and Lombardy are regions in which European country?",
+    "output": "Italy"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Fakt is the biggest-selling daily newspaper in which European country?",
+    "output": "Poland"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The headquarters of UNESCO (United Nations Educational, Scientific and Cultural Organization) are in which European city?",
+    "output": "Paris"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Who was the first black footballer to play for England?",
+    "output": "Viv Anderson"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "In which year was singer Elvis Presley born?",
+    "output": "1935"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "Bert Handy, Penny Panting and Lily Duveen are all characters in which ‘Carry On’ film?",
+    "output": "Carry On Regardless"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The 2004 Chuetsu Earthquakes occurred in which country?",
+    "output": "Japan"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "David McConnell was the founder of which cosmetics company in 1886?",
+    "output": "Avon"
+  },
+  {
+    "type": "trivia_qa",
+    "input": "The poisonous fungus Amanita Phalloides is better known by what name?",
+    "output": "The Death Cap"
   }
 ]

@@ -146,7 +146,7 @@ def import_commonsense():
 
 # ── 7. ELI5 (Explain Like I'm 5) ─────────────────────────────────────────
 # Simple plain-English answers to complex questions
-def import_eli5(limit=3000):
+def import_eli5(limit=5000):
     print("\n[*] Importing ELI5...")
     try:
         ds = load_dataset("eli5_category", split="train", trust_remote_code=False)
@@ -164,19 +164,57 @@ def import_eli5(limit=3000):
         print(f"[!] ELI5 failed: {e}")
 
 
+# ── 8. GSM8K (Grade School Math) ─────────────────────────────────────────
+def import_gsm8k(limit=3000):
+    print("\n[*] Importing GSM8K (Math)...")
+    try:
+        ds = load_dataset("gsm8k", "main", split="train")
+        samples = []
+        for row in tqdm(ds.select(range(min(limit, len(ds))))):
+            q = clean(row["question"])
+            # The raw answer has steps with final result, let's clean it up slightly
+            # We can use it as is for step-by-step reasoning
+            a = clean(row["answer"])
+            if q and a:
+                samples.append({"type": "math", "input": q, "output": a})
+        save("hf_gsm8k.json", samples)
+    except Exception as e:
+        print(f"[!] GSM8K failed: {e}")
+
+
+# ── 9. Python Code Instructions ──────────────────────────────────────────
+def import_python_code(limit=3000):
+    print("\n[*] Importing Python Code Instructions...")
+    try:
+        ds = load_dataset("iamtarun/python_code_instructions_18k_alpaca", split="train")
+        samples = []
+        for row in tqdm(ds.select(range(min(limit, len(ds))))):
+            instruction = clean(row["instruction"])
+            inp_extra   = clean(row.get("input", ""))
+            output      = clean(row["output"])
+            full_input  = f"{instruction} {inp_extra}".strip() if inp_extra else instruction
+            if full_input and output:
+                samples.append({"type": "code", "input": full_input, "output": output})
+        save("hf_python_code.json", samples)
+    except Exception as e:
+        print(f"[!] Python Code failed: {e}")
+
+
 if __name__ == "__main__":
     print("=" * 60)
     print(" SUB-ai 2.0 - HuggingFace Dataset Importer")
     print("=" * 60)
 
-    import_squad(limit=5000)          # Wikipedia QA
-    import_oasst(limit=3000)          # Real human conversations (replaces DailyDialog)
-    import_trivia(limit=4000)         # Trivia facts
+    import_squad(limit=10000)         # Wikipedia QA (increased)
+    import_oasst(limit=5000)          # Real human conversations (increased)
+    import_trivia(limit=5000)         # Trivia facts (increased)
     import_openbookqa()               # Science QA
-    import_alpaca(limit=5000)         # Instruction following
+    import_alpaca(limit=8000)         # Instruction following (increased)
     import_commonsense()              # Common sense reasoning
-    import_eli5(limit=3000)           # Simple explanations
+    import_eli5(limit=5000)           # Simple explanations (increased)
+    import_gsm8k(limit=3000)          # Grade School Math (NEW)
+    import_python_code(limit=3000)    # Coding (NEW)
 
-    print("\n[✓] All datasets imported! Now run:")
+    print("\n[v] All datasets imported! Now run:")
     print("    python dataset/build_dataset.py")
     print("    python train.py")

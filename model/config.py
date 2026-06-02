@@ -1,15 +1,30 @@
 # Model Hyperparameters
 CONFIG = {
+    # ── Mode Selection ─────────────────────────────────────────────
+    # "custom" for scratch-built SUBaiModel, "pretrained" for fine-tuning
+    "model_mode": "pretrained", 
+    "pretrained_model_name": "microsoft/Phi-3-mini-4k-instruct", # Best model under 4B parameters (3.8B)
+    
+    # ── LoRA Hyperparameters (only used if model_mode == "pretrained") ──
+    "use_lora": True,
+    "lora_r": 8,
+    "lora_alpha": 16,
+    "lora_dropout": 0.05,
+    "lora_target_modules": ["qkv_proj", "o_proj", "gate_up_proj", "down_proj"], # Optimized for Phi-3 (use ["q_proj", "v_proj"] or similar for others)
+
+    # ── Custom Model Hyperparameters ─────────────────────────────────
     "vocab_size": 20000,    # Reduced — actual unique tokens are ~18K
     "embed_dim": 512,       # Doubled for richer representations
     "num_heads": 8,
     "num_layers": 6,        # More layers for deeper understanding
     "ff_dim": 1024,         # Wider feed-forward for capacity
-    "max_seq_len": 256,     # Longer context window
     "dropout": 0.1,
-    "batch_size": 32,       # Larger batches for stable gradients
-    "epochs": 50,           # More epochs for better convergence
-    "lr": 1e-4,             # Lower LR for smoother training
-    "save_path": "checkpoints/sub_ai.pt",
+
+    # ── Shared Training Settings ────────────────────────────────────
+    "max_seq_len": 256,     # Longer context window
+    "batch_size": 8,        # Reduced from 32 to fit comfortably in T4 VRAM
+    "epochs": 3,            # Fine-tuning a pretrained model takes 3-5 epochs
+    "lr": 2e-5,             # standard LR for LLM fine-tuning (2e-5)
+    "save_path": "checkpoints/sub_ai.pt", # Standard save path
     "vocab_path": "checkpoints/vocab.json"
 }

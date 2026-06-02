@@ -16,11 +16,14 @@ DATASET_FILES = [
     "instruction_dataset.json",
     # HuggingFace imported datasets
     "hf_squad.json",
-    "hf_daily_dialog.json",
+    "hf_conversations.json", # OpenAssistant conversations
     "hf_trivia.json",
     "hf_openbookqa.json",
     "hf_alpaca.json",
     "hf_commonsense.json",
+    "hf_eli5.json",          # Explain Like I'm 5 explanations
+    "hf_gsm8k.json",         # Grade school math QA
+    "hf_python_code.json",   # Python code instructions
 ]
 
 def build():
@@ -55,8 +58,8 @@ def build():
         json.dump(processed, f, indent=2, ensure_ascii=False)
 
     print(f"\n{'='*50}")
-    print(f"[✓] Total samples: {len(processed):,}")
-    print(f"[✓] Saved to: {OUT_PATH}")
+    print(f"[v] Total samples: {len(processed):,}")
+    print(f"[v] Saved to: {OUT_PATH}")
     print(f"\nBreakdown by category:")
     for cat, cnt in sorted(stats.items(), key=lambda x: -x[1]):
         print(f"  {cat:<20} {cnt:>6,}")
