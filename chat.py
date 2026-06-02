@@ -135,7 +135,8 @@ def load_model(device):
             base_model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
                 torch_dtype=torch_dtype,
-                trust_remote_code=True
+                trust_remote_code=True,
+                attn_implementation="eager"
             )
             base_model = base_model.to(device)
             
@@ -149,8 +150,10 @@ def load_model(device):
             model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
                 torch_dtype=torch_dtype,
-                trust_remote_code=True
-            ).to(device)
+                trust_remote_code=True,
+                attn_implementation="eager"
+            )
+            model = model.to(device)
             
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token

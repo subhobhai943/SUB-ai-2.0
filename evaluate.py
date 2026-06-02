@@ -102,7 +102,8 @@ if __name__ == "__main__":
             base_model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
                 torch_dtype=torch_dtype,
-                trust_remote_code=True
+                trust_remote_code=True,
+                attn_implementation="eager"
             )
             base_model = base_model.to(device)
             model = PeftModel.from_pretrained(base_model, adapter_path)
@@ -113,7 +114,8 @@ if __name__ == "__main__":
             model = AutoModelForCausalLM.from_pretrained(
                 base_model_name,
                 torch_dtype=torch_dtype,
-                trust_remote_code=True
+                trust_remote_code=True,
+                attn_implementation="eager"
             )
             model = model.to(device)
             

@@ -3,14 +3,14 @@ CONFIG = {
     # ── Mode Selection ─────────────────────────────────────────────
     # "custom" for scratch-built SUBaiModel, "pretrained" for fine-tuning
     "model_mode": "pretrained", 
-    "pretrained_model_name": "microsoft/Phi-3-mini-4k-instruct", # Best model under 4B parameters (3.8B)
+    "pretrained_model_name": "Qwen/Qwen2.5-3B-Instruct", # 3B param model, fully compatible with latest transformers
     
     # ── LoRA Hyperparameters (only used if model_mode == "pretrained") ──
     "use_lora": True,
     "lora_r": 8,
     "lora_alpha": 16,
     "lora_dropout": 0.05,
-    "lora_target_modules": ["qkv_proj", "o_proj", "gate_up_proj", "down_proj"], # Optimized for Phi-3 (use ["q_proj", "v_proj"] or similar for others)
+    "lora_target_modules": ["q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj"], # Optimized for Qwen2.5
 
     # ── Custom Model Hyperparameters ─────────────────────────────────
     "vocab_size": 20000,    # Reduced — actual unique tokens are ~18K

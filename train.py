@@ -139,14 +139,16 @@ def main():
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 torch_dtype=torch.float16,
-                trust_remote_code=True
+                trust_remote_code=True,
+                attn_implementation="eager"
             )
             model = model.to(device)
         else:
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 torch_dtype=torch.float32,
-                trust_remote_code=True
+                trust_remote_code=True,
+                attn_implementation="eager"
             )
             model = model.to(device)
 
