@@ -103,7 +103,8 @@ if __name__ == "__main__":
                 base_model_name,
                 torch_dtype=torch_dtype,
                 trust_remote_code=True
-            ).to(device)
+            )
+            base_model = base_model.to(device)
             model = PeftModel.from_pretrained(base_model, adapter_path)
         else:
             print(f"[!] Fine-tuned weights not found. Loading base pre-trained model: {base_model_name}...")
@@ -113,7 +114,8 @@ if __name__ == "__main__":
                 base_model_name,
                 torch_dtype=torch_dtype,
                 trust_remote_code=True
-            ).to(device)
+            )
+            model = model.to(device)
             
         if tokenizer.pad_token is None:
             tokenizer.pad_token = tokenizer.eos_token

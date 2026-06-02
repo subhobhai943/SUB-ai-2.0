@@ -140,13 +140,15 @@ def main():
                 model_name,
                 torch_dtype=torch.float16,
                 trust_remote_code=True
-            ).to(device)
+            )
+            model = model.to(device)
         else:
             model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 torch_dtype=torch.float32,
                 trust_remote_code=True
-            ).to(device)
+            )
+            model = model.to(device)
 
         if cfg.get("use_lora", False):
             print("[*] Wrapping model with LoRA (Parameter Efficient Fine-Tuning)...")

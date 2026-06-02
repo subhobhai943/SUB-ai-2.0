@@ -136,7 +136,8 @@ def load_model(device):
                 base_model_name,
                 torch_dtype=torch_dtype,
                 trust_remote_code=True
-            ).to(device)
+            )
+            base_model = base_model.to(device)
             
             # Wrap with Peft adapter
             model = PeftModel.from_pretrained(base_model, adapter_path)
