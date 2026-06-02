@@ -139,6 +139,9 @@ def main():
         if avg_val < best_val_loss:
             best_val_loss = avg_val
             torch.save(model.state_dict(), cfg["save_path"])
+            config_save_path = os.path.join(os.path.dirname(cfg["save_path"]), "config.json")
+            with open(config_save_path, "w", encoding="utf-8") as f:
+                json.dump(cfg, f, indent=4)
             print(f"  [✓] Best model saved (val loss: {best_val_loss:.4f})")
 
     print(f"\n[✓] Training complete. Best val loss: {best_val_loss:.4f}")

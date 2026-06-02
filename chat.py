@@ -26,18 +26,25 @@ BANNER = """
 """
 
 
-def generate(model, tokenizer, prompt, max_new_tokens=50, temperature=0.8, top_k=40, device="gpu"):
-    cfg = CONFIG
+def generate(model, tokenizer, prompt, max_new_tokens=50, temperature=0.7, top_k=30, device="cpu", max_seq_len=256):
     model.eval()
 
+    # ── Tokenize exactly like training: replace newlines with spaces, then split ──
+    clean_prompt = prompt.replace("\n", " ")
     tokens = [tokenizer.word2idx.get("<BOS>", 2)]
-    tokens += [tokenizer.word2idx.get(w, 1) for w in prompt.lower().split()]
+    tokens += [tokenizer.word2idx.get(w, tokenizer.word2idx.get("<UNK>", 1))
+               for w in clean_prompt.lower().split()]
+
+    # Trim to leave room for generation
+    max_prompt_len = max_seq_len - max_new_tokens
+    if len(tokens) > max_prompt_len:
+        tokens = tokens[:1] + tokens[-(max_prompt_len - 1):]  # keep <BOS> + tail
 
     x = torch.tensor(tokens, dtype=torch.long).unsqueeze(0).to(device)
 
     with torch.no_grad():
         for _ in range(max_new_tokens):
-            if x.size(1) >= cfg["max_seq_len"]:
+            if x.size(1) >= max_seq_len:
                 break
 
             logits     = model(x)
@@ -50,23 +57,35 @@ def generate(model, tokenizer, prompt, max_new_tokens=50, temperature=0.8, top_k
 
             probs      = torch.softmax(next_logits, dim=-1)
             next_token = torch.multinomial(probs, num_samples=1)
+            tok_id = next_token.item()
 
-            if next_token.item() == tokenizer.word2idx.get("<EOS>", 3):
+            # Stop on <EOS> or if model starts a new "user:" turn
+            if tok_id == tokenizer.word2idx.get("<EOS>", 3):
+                break
+            if tokenizer.idx2word.get(tok_id, "") == "user:":
                 break
 
             x = torch.cat([x, next_token.unsqueeze(0)], dim=1)
 
     generated = x[0].tolist()[len(tokens):]
+    SKIP = {"<PAD>", "<BOS>", "<EOS>", "<UNK>", "user:", "bot:"}
     words = [
         tokenizer.idx2word.get(t, "")
         for t in generated
-        if tokenizer.idx2word.get(t, "") not in ("<PAD>", "<BOS>", "<EOS>", "<UNK>")
+        if tokenizer.idx2word.get(t, "") not in SKIP
     ]
     return " ".join(words).strip()
 
 
 def load_model(device):
-    cfg = CONFIG
+    import os
+    config_path = "checkpoints/config.json"
+    if os.path.exists(config_path):
+        with open(config_path, "r", encoding="utf-8") as f:
+            cfg = json.load(f)
+    else:
+        cfg = CONFIG
+
     tokenizer = SimpleTokenizer(cfg["vocab_size"])
     tokenizer.load(cfg["vocab_path"])
 
@@ -83,8 +102,7 @@ def load_model(device):
         torch.load(cfg["save_path"], map_location=device, weights_only=True)
     )
     model.eval()
-    return model, tokenizer
-
+    return model, tokenizer, cfg
 
 def main():
     # Device
@@ -100,19 +118,19 @@ def main():
 
     # Load
     try:
-        model, tokenizer = load_model(device)
+        model, tokenizer, loaded_cfg = load_model(device)
         vocab_size = len(tokenizer.word2idx)
         print(f"  Vocab   : {vocab_size:,} tokens")
-        print(f"  Model   : loaded from {CONFIG['save_path']}")
+        print(f"  Model   : loaded from {loaded_cfg['save_path']}")
     except FileNotFoundError as e:
         print(f"\n[ERROR] Could not load model: {e}")
         print("  Make sure you have trained the model first: python train.py")
         sys.exit(1)
 
     # Settings
-    temperature  = 0.8
-    top_k        = 40
-    max_tokens   = 50
+    temperature  = 0.7
+    top_k        = 30
+    max_tokens   = 60
     history      = []   # list of (user, bot) tuples
 
     print("\n  Type your message below. Type /quit to exit.")
@@ -170,17 +188,21 @@ def main():
             continue
 
         # ── Build prompt with context (last 2 turns) ────────────────────
+        # Use spaces instead of newlines — training data newlines become
+        # spaces after .split(), so the model never actually learned \n as
+        # a separator.  Keeping the "User:" / "Bot:" markers is enough.
         context = ""
         for u, b in history[-2:]:
-            context += f"User: {u}\nBot: {b}\n"
-        prompt = context + f"User: {user_input}\nBot:"
+            context += f"User: {u} Bot: {b} "
+        prompt = context + f"User: {user_input} Bot:"
 
         response = generate(
             model, tokenizer, prompt,
             max_new_tokens=max_tokens,
             temperature=temperature,
             top_k=top_k,
-            device=device
+            device=device,
+            max_seq_len=loaded_cfg["max_seq_len"]
         )
 
         if not response:
