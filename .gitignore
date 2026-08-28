@@ -28,7 +28,6 @@ ENV/
 # ========================
 .ipynb_checkpoints/
 *.ipynb
-!train_colab.ipynb
 
 # ========================
 # Model Checkpoints & Weights
