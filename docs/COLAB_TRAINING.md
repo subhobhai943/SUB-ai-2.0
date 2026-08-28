@@ -34,6 +34,11 @@ Install the required libraries (including HuggingFace `transformers`, `peft` for
 
 ```python
 !pip install -r requirements.txt
+
+# Colab's base image preinstalls an old torchao (e.g. 0.10.0). peft's LoRA layer
+# dispatch checks torchao's version and raises ImportError instead of skipping it
+# if it's too old -- and this project doesn't use torchao at all, so just drop it.
+!pip uninstall -y torchao
 ```
 
 ### Cell 3: Download HuggingFace Datasets
