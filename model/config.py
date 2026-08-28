@@ -22,7 +22,10 @@ CONFIG = {
 
     # ── Shared Training Settings ────────────────────────────────────
     "max_seq_len": 256,     # Longer context window
-    "batch_size": 8,        # Reduced from 32 to fit comfortably in T4 VRAM
+    "batch_size": 4,        # Lowered from 8 -- 8 was OOMing a T4 (14.56GB) even
+                             # with gradient checkpointing enabled; grad accumulation
+                             # below keeps the effective batch size at 32.
+    "gradient_accumulation_steps": 8,
     "epochs": 3,            # Fine-tuning a pretrained model takes 3-5 epochs
     "lr": 2e-5,             # standard LR for LLM fine-tuning (2e-5)
     "save_path": "checkpoints/sub_ai.pt", # Standard save path

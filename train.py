@@ -1,5 +1,10 @@
 import json
 import os
+
+# Must be set before the CUDA context is created (i.e. before `import torch`).
+# Reduces allocator fragmentation, which matters on a T4's tight 16GB budget.
+os.environ.setdefault("PYTORCH_CUDA_ALLOC_CONF", "expandable_segments:True")
+
 import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader, random_split
@@ -182,6 +187,19 @@ def main():
             for param in model.parameters():
                 if param.requires_grad:
                     param.data = param.data.float()
+
+        # Gradient checkpointing trades compute for activation memory -- without it,
+        # every layer's activations stay resident through the whole backward pass,
+        # which is what was blowing past the T4's 16GB. enable_input_require_grads()
+        # is required alongside it: the base model is frozen, so nothing upstream of
+        # the LoRA adapters would otherwise carry requires_grad=True into the
+        # checkpointed segments, breaking recomputation. use_cache is disabled since
+        # KV-caching (a generation-time optimization) is incompatible with it and
+        # only wastes memory during training.
+        print("[*] Enabling gradient checkpointing to reduce activation memory...")
+        model.gradient_checkpointing_enable()
+        model.enable_input_require_grads()
+        model.config.use_cache = False
 
         full_dataset = PretrainedTextDataset(
             "data/processed/dataset.json", tokenizer, cfg["max_seq_len"]
