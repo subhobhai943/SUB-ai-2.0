@@ -77,7 +77,52 @@ files.download('checkpoints_pretrained.zip')
 
 ---
 
-## Step 3: Run Locally
+## Step 3: Publish a GGUF Release to GitHub (optional, from the same Colab session)
+
+Instead of (or in addition to) downloading the zip in Step 2's Cell 6, you can have Colab
+merge the LoRA adapter, convert it to GGUF, quantize it, and publish it directly to this
+repo's **Releases** page.
+
+### Cell 7: Provide a GitHub token
+
+Needs a Personal Access Token with **Contents: write** on this repo (classic PAT: the
+`repo` scope). Preferred way -- add it as a Colab secret so it never touches shell
+history or notebook output: click the key icon in the left sidebar, add a secret named
+`GITHUB_TOKEN`, and grant this notebook access. `scripts/release_gguf.py` reads it
+automatically.
+
+If you'd rather not use Colab secrets, set it directly instead:
+
+```python
+import os
+os.environ["GITHUB_TOKEN"] = "ghp_xxxxxxxxxxxxxxxxxxxx"
+```
+
+### Cell 8: Run the release script
+
+```python
+!python scripts/release_gguf.py
+```
+
+This will:
+1. Merge the fine-tuned LoRA adapter (`checkpoints/pretrained_model`) into the base model.
+2. Clone `llama.cpp` and convert the merged model to GGUF (f16).
+3. Build `llama-quantize` and quantize to `Q4_K_M` (~2GB for the 3B model).
+4. Create a new tagged release (`train-<UTC timestamp>`) on `subhobhai943/SUB-ai-2.0`
+   and upload the quantized `.gguf` as a release asset.
+
+Intermediate files (the merged HF model, the f16 gguf) are deleted afterward to save
+Colab disk space. Override behavior with environment variables before running the cell:
+
+| Variable | Default | Purpose |
+|---|---|---|
+| `GGUF_QUANT` | `Q4_K_M` | Any llama.cpp quant type (e.g. `Q8_0`, `Q5_K_M`) |
+| `RELEASE_TAG` | `train-<timestamp>` | Custom release tag |
+| `KEEP_INTERMEDIATES` | `0` | Set to `1` to keep the merged model + f16 gguf |
+
+---
+
+## Step 4: Run Locally
 
 1. Extract the downloaded `checkpoints_pretrained.zip` directly into your local `SUB-ai-2.0/` folder.
 2. Verify that your directory structure looks like this:

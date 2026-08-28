@@ -330,7 +330,7 @@ def main():
 
             config_save_path = os.path.join("checkpoints", "config.json")
             with open(config_save_path, "w", encoding="utf-8") as f:
-                json.dump(cfg, f, indent=4)
+                json.dump({**cfg, "best_val_loss": best_val_loss}, f, indent=4)
 
     print(f"\n[v] Training complete. Best val loss: {best_val_loss:.4f}")
 

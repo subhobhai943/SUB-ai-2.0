@@ -38,6 +38,12 @@ checkpoints/
 *.ckpt
 *.bin
 *.safetensors
+*.gguf
+
+# ========================
+# GGUF export toolchain (cloned by scripts/release_gguf.py)
+# ========================
+llama.cpp/
 
 # ========================
 # Processed / Generated Data

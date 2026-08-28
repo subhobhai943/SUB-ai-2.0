@@ -38,6 +38,10 @@ numpy>=1.26.0
 # ── Training Utilities ─────────────────────────────────────────
 tqdm>=4.66.0
 
+# ── GGUF Export / GitHub Release Publishing ────────────────────
+# Used by scripts/release_gguf.py to call the GitHub REST API
+requests>=2.31.0
+
 # ── Optional: Experiment Tracking ─────────────────────────────
 # Uncomment to enable Weights & Biases logging
 # wandb
