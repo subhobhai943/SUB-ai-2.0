@@ -93,14 +93,14 @@ class PretrainedTextDataset(Dataset):
             labels = input_ids.clone()
             labels[attention_mask == 0] = -100
 
-            self.samples.append((input_ids, labels))
+            self.samples.append((input_ids, attention_mask, labels))
 
     def __len__(self):
         return len(self.samples)
 
     def __getitem__(self, idx):
-        input_ids, labels = self.samples[idx]
-        return input_ids, labels
+        input_ids, attention_mask, labels = self.samples[idx]
+        return input_ids, attention_mask, labels
 
 # -- Main ----------------------------------------------------------------------
 def main():
@@ -253,19 +253,24 @@ def main():
         train_loss = 0.0
         optimizer.zero_grad()
 
-        for step, (x, y) in enumerate(
+        for step, batch in enumerate(
             tqdm(train_loader, desc=f"Epoch {epoch}/{cfg['epochs']} [Train]")
         ):
-            x, y = x.to(device), y.to(device)
-
             # Use non-deprecated torch.amp.autocast; only enable on CUDA
             with torch.amp.autocast("cuda", enabled=use_amp):
                 if model_mode == "pretrained":
-                    # HF models: pass input_ids and labels, get loss directly
-                    outputs = model(input_ids=x, labels=y)
+                    # HF models: pass input_ids, attention_mask and labels, get loss directly.
+                    # attention_mask matters for models that default to left-padding
+                    # (e.g. Phi-3) -- without it, real tokens would attend into
+                    # leading pad-token garbage.
+                    x, attn_mask, y = batch
+                    x, attn_mask, y = x.to(device), attn_mask.to(device), y.to(device)
+                    outputs = model(input_ids=x, attention_mask=attn_mask, labels=y)
                     loss = outputs.loss
                 else:
                     # Custom model: returns logits directly
+                    x, y = batch
+                    x, y = x.to(device), y.to(device)
                     logits = model(x)
                     loss = criterion(logits.reshape(-1, vocab_size), y.reshape(-1))
 
@@ -287,13 +292,16 @@ def main():
         model.eval()
         val_loss = 0.0
         with torch.no_grad():
-            for x, y in val_loader:
-                x, y = x.to(device), y.to(device)
+            for batch in val_loader:
                 with torch.amp.autocast("cuda", enabled=use_amp):
                     if model_mode == "pretrained":
-                        outputs = model(input_ids=x, labels=y)
+                        x, attn_mask, y = batch
+                        x, attn_mask, y = x.to(device), attn_mask.to(device), y.to(device)
+                        outputs = model(input_ids=x, attention_mask=attn_mask, labels=y)
                         loss = outputs.loss
                     else:
+                        x, y = batch
+                        x, y = x.to(device), y.to(device)
                         logits = model(x)
                         loss = criterion(
                             logits.reshape(-1, vocab_size), y.reshape(-1)
