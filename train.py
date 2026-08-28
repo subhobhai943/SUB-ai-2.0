@@ -72,7 +72,6 @@ class PretrainedTextDataset(Dataset):
             data = json.load(f)
 
         self.samples = []
-        pad_token_id = tokenizer.pad_token_id if tokenizer.pad_token_id is not None else 0
         eos_token = tokenizer.eos_token if tokenizer.eos_token is not None else ""
 
         for d in tqdm(data, desc="Tokenizing dataset"):
@@ -85,10 +84,14 @@ class PretrainedTextDataset(Dataset):
                 return_tensors="pt"
             )
             input_ids = enc["input_ids"].squeeze(0)
+            attention_mask = enc["attention_mask"].squeeze(0)
 
-            # In labels, replace padding token with -100 to ignore loss
+            # Mask real padding positions via attention_mask, not by comparing
+            # token ids -- pad_token_id == eos_token_id for several models
+            # (e.g. Phi-3), which would otherwise also mask the real trailing
+            # EOS and stop the model from ever learning to end a sequence.
             labels = input_ids.clone()
-            labels[labels == pad_token_id] = -100
+            labels[attention_mask == 0] = -100
 
             self.samples.append((input_ids, labels))
 
@@ -168,6 +171,17 @@ def main():
             )
             model = get_peft_model(model, peft_config)
             model.print_trainable_parameters()
+
+        if device.type == "cuda":
+            # peft mirrors the base layer's dtype onto new LoRA adapter weights
+            # (or, with no LoRA, every trainable param is already fp16 from
+            # from_pretrained). GradScaler.unscale_() raises "Attempting to
+            # unscale FP16 gradients" unless trainable params are fp32, so
+            # upcast only the trainable weights; frozen fp16 base weights stay
+            # fp16 and autocast reconciles the mixed dtypes during forward/backward.
+            for param in model.parameters():
+                if param.requires_grad:
+                    param.data = param.data.float()
 
         full_dataset = PretrainedTextDataset(
             "data/processed/dataset.json", tokenizer, cfg["max_seq_len"]
